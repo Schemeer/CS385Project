@@ -19,7 +19,7 @@ class DataProceess():
 
     def produce_txt(self):
         with open("DataSet/train.csv",'r') as f:
-            myfile = open("Total.txt","w")
+            myfile = open("Single_Instance/Total.txt","w")
             reader = csv.reader(f)
             print(type(reader))
             for row in reader:
@@ -47,7 +47,7 @@ class DataProceess():
                         myfile.write('\n')
 
     def Fold(self):
-        file1 = open("Total.txt")
+        file1 = open("Single_Instance/Total.txt")
         files = file1.readlines()
         length = len(files) - 1
         print(files)
@@ -60,8 +60,8 @@ class DataProceess():
         train = shuffle[:rate]
         test = shuffle[:rate]
 
-        nf = open("tr.txt",'w')
-        nt = open("te.txt",'w')
+        nf = open("Single_Instance/tr.txt",'w')
+        nt = open("Single_Instance/te.txt",'w')
   
         for i in train:
             nf.write(files[i])
@@ -131,7 +131,7 @@ class ImageDataset(Dataset):
 
 
 if __name__ == "__main__":
-    train_filename = "Total.txt"
+    train_filename = "Single_Instance/Total.txt"
 
     epoch_num = 2
     batch_size = 3000

@@ -12,7 +12,7 @@ import os
 
 batch_size = 32
 num_classes = 10
-train_filename = 'tr.txt'
+train_filename = 'Single_Instance/tr.txt'
 train_data = DataPrecess.ImageDataset(train_filename)
 train_data = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
 
