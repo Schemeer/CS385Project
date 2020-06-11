@@ -10,7 +10,7 @@ import pickle as pkl
 import random
 
 class ImageDataset(Dataset):
-    def __init__(self, LabelFile="Label.pkl", DataFile="Train.pkl", resize_height=512, resize_width=512, repeat=2, classnum=10):
+    def __init__(self, LabelFile="Label.pkl", DataFile="Train.pkl", resize_height=512, resize_width=512, repeat=2, classnum=10, transform=None):
         self.CurrentDir = os.path.dirname(os.path.abspath(__file__))
         self.Labels = self.read_file(os.path.join(self.CurrentDir, LabelFile))
         self.Datas = self.read_file(os.path.join(self.CurrentDir, DataFile))
@@ -18,6 +18,7 @@ class ImageDataset(Dataset):
         self.resize_height = resize_height
         self.resize_width = resize_width
         self.classnum = classnum
+        self.transform = transform
 
     def __len__(self):
         if self.repeat == None:
@@ -34,16 +35,16 @@ class ImageDataset(Dataset):
     def load_data(self, paths, resize_height, resize_width, normalization):
         images = []
         for path in paths:
-            image = Image.open(path)
-            image = np.array(image)
+            image = Image.open(path).convert("RGB")
+            image = self.transform(image).numpy()
             images.append(image)
-        return np.array(images)
+        return torch.from_numpy(np.array(images))
 
     def encode(self, bag):
         label_ls = self.Labels[bag]
         label = np.zeros(self.classnum)
         label[label_ls]=1
-        return label
+        return torch.from_numpy(label)
 
     def __getitem__(self,i):
         index = i%len(self.Datas)
