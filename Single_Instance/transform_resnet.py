@@ -58,7 +58,7 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
         train_micro_f1 = 0.0
 
         valid_loss = 0.0
-        valid_acc = 0.0
+        valid_auc = 0.0
         valid_macro_f1 = 0.0
         valid_micro_f1 = 0.0
 
@@ -87,7 +87,7 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
             train_macro_f1 += np.sum(np.array([evaluate.macro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
             train_micro_f1 += np.sum(np.array([evaluate.micro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
             count_item += labels.size(0)
-        print("train ---- epoch == > {}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch,train_auc/count_item,train_macro_f1/count_item,train_micro_f1/count_item))
+        print("train ---- epoch == > {},loss==>{}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch,train_loss/count_item,train_auc/count_item,train_macro_f1/count_item,train_micro_f1/count_item))
         epochs_end  =time.time()
         print("time : ",epochs_end - epoch_start)
         print("-----valid mode-----")
@@ -106,7 +106,7 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
             valid_macro_f1 += np.sum(np.array([evaluate.macro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
             valid_micro_f1 += np.sum(np.array([evaluate.micro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
             count_valid += labels.size(0)
-        print("valid ---- epoch == > {}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch, valid_auc/count_valid, valid_macro_f1/count_valid, valid_micro_f1/count_valid))
+        print("valid ---- epoch == > {},loss == {}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch, valid_loss/count_valid, valid_auc/count_valid, valid_macro_f1/count_valid, valid_micro_f1/count_valid))
         epochs_end  =time.time()
         print("time : ",epochs_end - epoch_start)
         history.append([train_auc/count_item,train_macro_f1/count_item,train_micro_f1/count_item, valid_auc/count_valid, valid_macro_f1/count_valid, valid_micro_f1/count_valid])
