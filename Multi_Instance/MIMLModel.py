@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     transform = transforms.Compose([transforms.ToTensor()])
     train_data = ImageDataset(transform=transform)
-    train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
+    train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = True)
 
     valid_data = ImageDataset(DataFile="Valid.pkl",transform=transform)
     valid_loader = DataLoader(dataset = valid_data, batch_size=batch_size, shuffle = False)
@@ -117,7 +117,7 @@ if __name__ == "__main__":
         print(f"train ---- epoch == > {epoch}, auc ==> {valid_auc/count_valid},  macro_f1==> {valid_macro_f1/count_valid}, micro_f1 ==> {valid_micro_f1/count_valid}")
         t_end  =time.time()
         print("time: ",t_end - t_start)
-        torch.save(model.state_dict(), f"models\\model_{epoch}.pth")
+        torch.save(model.state_dict(), f"Multi_Instance\\models\\model_{epoch}.pth")
     plt.plot(train_loss)
     plt.savefig("result.png", dip=72)
     plt.show()
