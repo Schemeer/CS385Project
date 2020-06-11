@@ -4,29 +4,23 @@ from torch.autograd import Variable
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
-#import image_process
-# from utils import image_processing
 from PIL import Image
 import os
 import random
 
 
 class DataProceess():
-    def __init__(self,trainFold = 8,testFold = 2):
+    def __init__(self,trainFold = 7,validFold = 1, testFold = 2):
+        self.validFold = validFold
         self.trainFold = trainFold
         self.testFold = testFold
 
 
     def produce_txt(self):
         with open("DataSet/train.csv",'r') as f:
-            myfile = open("Single_Instance/Total.txt","w")
+            myfile = open("Total.txt","w")
             reader = csv.reader(f)
-            print(type(reader))
             for row in reader:
-                # if len(row[1]) == 1:
-                #     row[1] = row[1]+";-1;-1"
-                # if len(row[1]) == 3:
-                #     row[1] = row[1]+";-1"
                 row[1] = row[1].split(';')
                 l= [0 for i in range(10)]
                 for  i in row[1]:
@@ -47,33 +41,39 @@ class DataProceess():
                         myfile.write('\n')
 
     def Fold(self):
-        file1 = open("Single_Instance/Total.txt")
+        file1 = open("Total.txt")
         files = file1.readlines()
         length = len(files) - 1
-        print(files)
-        rate = int(length * float(self.trainFold)/(self.trainFold+self.testFold))
-        print(rate)
-        print(length)
-        shuffle = [i for i in range(length)]
-        # print(shuffle)
-        random.shuffle(shuffle)
-        train = shuffle[:rate]
-        test = shuffle[:rate]
+ 
+        rate1 = int(length * float(self.trainFold)/(self.trainFold+self.testFold+self.validFold))
+        rate2 = int(length * float(self.trainFold+self.validFold)/(self.trainFold+self.testFold+self.validFold))
 
-        nf = open("Single_Instance/tr.txt",'w')
-        nt = open("Single_Instance/te.txt",'w')
-  
+        print("rate1:{} ,rate2:{}".format(rate1,rate2))
+        shuffle = [i for i in range(length)]
+
+        random.shuffle(shuffle)
+
+        train = shuffle[:rate1]
+        valid = shuffle[rate1:rate2]
+        test = shuffle[rate2:]
+
+        nf = open("tr.txt",'w')
+        nv = open("tv.txt",'w')
+        nt = open("te.txt",'w')
+
         for i in train:
             nf.write(files[i])
+  
+        for i in valid:
+            nv.write(files[i])
     
         for i in test:
             nt.write(files[i])
   
 
-test = DataProceess()
-
-test.produce_txt()
-test.Fold()
+# test = DataProceess()
+# test.produce_txt()
+# test.Fold()
 
 
 #produce_txt()
@@ -92,9 +92,9 @@ class ImageDataset(Dataset):
 
     def __len__(self):
         if self.repeat == None:
-            data_len = 1000000
+            data_len = 10000
         else:
-            data_len = len(self.image_label_list) * self.repeat
+            data_len = self.len * self.repeat
         return data_len
 
     def read_file(self,filename):
@@ -112,7 +112,7 @@ class ImageDataset(Dataset):
 
     def load_data(self, path, resize_height, resize_width, normalization):
         #image = image_processing.read_image(path, resize_height, resize_width, normalization)
-        image = Image.open(path)
+        image = Image.open(path)#.conver("L")
         image = np.array(image)
        # print(image)
         return image
@@ -131,16 +131,19 @@ class ImageDataset(Dataset):
 
 
 if __name__ == "__main__":
-    train_filename = "Single_Instance/Total.txt"
+    train_filename = "Total.txt"
 
-    epoch_num = 2
+    epoch_num = 1
     batch_size = 3000
     # train_data_nums = 1000
     # max_interate = int((train_data_nums+batch_size-1)/batch_size*epoch_num)
+    count = 0
     train_data = ImageDataset(train_filename)
     train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
     for epoch in range(epoch_num):
         for batch_image, batch_label in train_loader:
+            count+=1
             print(batch_image.shape)
             print(batch_label.shape)
+            print(count)
 #             print("batch_image.shape:{},batch_label:{}".format(batch_image.shape,batch_label))
