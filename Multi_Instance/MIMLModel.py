@@ -45,7 +45,7 @@ if __name__ == "__main__":
         f1 = metrics.f1_score(y_true = y_true ,y_pred = y_pred, average = "micro")
         return f1 
 
-    epoch_num = 5
+    epoch_num = 1
     batch_size = 1
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = MIML().to(device)
@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
             loss = loss_func(output, batch_label)
 
-            res = torch.gt(outputs,0.5)
+            res = torch.gt(output,0.5)
 
             valid_auc += auc(batch_label.cpu(), res.cpu())
             valid_macro_f1 += macro_f1(batch_label.cpu(), res.cpu())
