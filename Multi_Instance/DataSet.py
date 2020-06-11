@@ -10,7 +10,7 @@ import pickle as pkl
 import random
 
 class ImageDataset(Dataset):
-    def __init__(self, LabelFile="Label.pkl", DataFile="Train.pkl", resize_height=512, resize_width=512, repeat=2, classnum=10, transform=None):
+    def __init__(self, LabelFile="Label.pkl", DataFile="Train.pkl", resize_height=512, resize_width=512, repeat=1, classnum=10, transform=None):
         self.CurrentDir = os.path.dirname(os.path.abspath(__file__))
         self.Labels = self.read_file(os.path.join(self.CurrentDir, LabelFile))
         self.Datas = self.read_file(os.path.join(self.CurrentDir, DataFile))
@@ -44,7 +44,7 @@ class ImageDataset(Dataset):
         label_ls = self.Labels[bag]
         label = np.zeros(self.classnum)
         label[label_ls]=1
-        return torch.from_numpy(label)
+        return torch.from_numpy(label).float()
 
     def __getitem__(self,i):
         index = i%len(self.Datas)
