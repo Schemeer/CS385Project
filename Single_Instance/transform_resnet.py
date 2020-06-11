@@ -55,42 +55,56 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
         print("Epoch: {}/{}".format(epoch+1,epochs))
         model.train()
         train_loss = 0.0
-        train_acc = 0.0
+        train_auc = 0.0
+        train_macro_f1 = 0.0
+        train_micro_f1 = 0.0
+
         valid_loss = 0.0
         valid_acc = 0.0
+        valid_macro_f1 = 0.0
+        valid_micro_f1 = 0.0
 
-        inputs= torch.rand(32,3,512,512).to(device)
-        labels = torch.randint(0,2,(32,10),dtype = torch.float).to(device)
+        count_item = 0
+        count_valid = 0
 
-        #### evaluate ####
-
-
-    
-
-
-        optimizer.zero_grad()
-        outputs = model(inputs)
-        loss = loss_function(outputs, labels)
+        for inputs,labels in train_data:
+            print("-----train mode-----")
+            optimizer.zero_grad()
+            outputs = model(inputs)
+            loss = loss_function(outputs, labels)
+            
+            loss.backward()
+            optimizer.step()
         
-        loss.backward()
-        optimizer.step()
-     
-        train_loss += loss.item() * inputs.size(0)
+            train_loss += loss.item() * inputs.size(0)
 
-        res = torch.gt(outputs,0.5)
-        auc = np.sum(np.array([evaluate.auc(labels[i].cpu(),res[i].cpu()) for i in range(res.size(0))]))
-        # macro_f1 = evaluate.macro_f1(labels[0].cpu(),res[0].cpu())
-        # micro_f1 = evaluate.micro_f1(labels[0].cpu(),res[0].cpu())
-
-
-        print("auc ==>",auc)
-        
-        countTrue = torch.eq(res,labels).sum().item()
-        TotalCount = labels.size(0)*labels.size(1)
-        acc = countTrue/TotalCount
-        print("acc ==>{}".format(str(acc)))
+            res = torch.gt(outputs,0.5)
+            
+            train_auc += np.sum(np.array([evaluate.auc(labels[i].cpu(),res[i].cpu()) for i in range(res.size(0))]))
+            train_macro_f1 = np.sum(np.array([evaluate.macro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
+            train_micro_f1 = np.sum(np.array([evaluate.micro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
+            count_item += labels.size(0)
+        print("train ---- epoch == > {}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch,auc/count_item,macro_f1/count_item,micro_f1/count_item))
         epochs_end  =time.time()
         print("time : ",epochs_end - epoch_start)
+
+        with torch.no_grad():
+            model.eval()
+        for valid_inputs,labels in valid_data:
+            outputs = model(valid_inputs)
+            loss = loss_function(outputs, labels)
+            valid_loss += loss.item() * valid_inputs.size(0)
+
+            res = torch.gt(outputs,0.5)
+        
+            auc = np.sum(np.array([evaluate.auc(labels[i].cpu(),res[i].cpu()) for i in range(res.size(0))]))
+            macro_f1 = np.sum(np.array([evaluate.macro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
+            micro_f1 = np.sum(np.array([evaluate.micro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
+            count_valid += labels.size(0)
+        print("valid ---- epoch == > {}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch,auc/count_valid,macro_f1/count_valid,micro_f1/count_valid))
+        epochs_end  =time.time()
+        print("time : ",epochs_end - epoch_start)
+
 
 
 
