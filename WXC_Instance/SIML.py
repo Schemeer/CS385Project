@@ -6,7 +6,7 @@ from torch.optim import lr_scheduler
 from torchvision import datasets, models, transforms
 import time
 import os
-import DataPrecess
+import DataProcess
 from tqdm import tqdm
 
 # 是否使用gpu运算
@@ -94,7 +94,7 @@ class my_Data_Set(nn.Module):
 
 # 生成Pytorch所需的DataLoader数据输入格式
 train_Data = my_Data_Set(r'tr.txt', transform=data_transforms['train'], loader=Load_Image_Information)
-val_Data = my_Data_Set(r'te.txt', transform=data_transforms['val'], loader=Load_Image_Information)
+val_Data = my_Data_Set(r'tem.txt', transform=data_transforms['val'], loader=Load_Image_Information)
 train_DataLoader = DataLoader(train_Data, batch_size=32, shuffle=True)
 val_DataLoader = DataLoader(val_Data, batch_size=32)
 
@@ -102,10 +102,10 @@ val_DataLoader = DataLoader(val_Data, batch_size=32)
 # batch_size = 32
 # num_classes = 10
 # train_filename = './tr.txt'
-# test_filename = './te.txt'
-# train_Data = DataPrecess.ImageDataset(train_filename)
+# test_filename = './tem.txt'
+# train_Data = DataProcess.ImageDataset(train_filename)
 # train_DataLoader = DataLoader(dataset=train_Data, batch_size=batch_size, shuffle=False)
-# val_Data = DataPrecess.ImageDataset(test_filename)
+# val_Data = DataProcess.ImageDataset(test_filename)
 # val_DataLoader = DataLoader(dataset=val_Data, batch_size=batch_size, shuffle=False)
 
 dataloaders = {'train': train_DataLoader, 'val': val_DataLoader}
