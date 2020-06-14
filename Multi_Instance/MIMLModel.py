@@ -61,10 +61,6 @@ class FineTuneModel(torch.nn.Module):
         return f.view(f.size(0), -1)
 
 if __name__=="__main__":
-    a = torch.randn((10,3,512,512))
-    resnet18 = models.resnet18(pretrained=False)
-    print(resnet18)
-    # model = FineTuneModel(resnet18)
-    # print(model)
-    # a = model(a)
-    # print(a.shape)
+    original_model = models.resnet18(pretrained=False)
+    model = torch.nn.Sequential(*list(original_model.children())[:-4])
+    print(model)
