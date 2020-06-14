@@ -33,10 +33,12 @@ class ImPlocMIML(nn.Module):
         self.group_size = group_size
         basemodel = models.resnet18(pretrained=True)
         self.feature_extractor = nn.Sequential(*list(basemodel.children())[:-4])
+        self.avgpool = nn.AdaptiveAvgPool2d((1, 1))
         self.Transformer = Transformer("res18-128")
     
     def forward(self, x):
         x = self.feature_extractor(x)
+        x = self.avgpool(x)
         x = torch.flatten(x, 1)
         x = x.view(-1, 8, 128)
         x = self.Transformer(x)
@@ -59,6 +61,9 @@ class FineTuneModel(torch.nn.Module):
         return f.view(f.size(0), -1)
 
 if __name__=="__main__":
+    a = torch.randn(2,3,512,512)
     original_model = models.resnet18(pretrained=False)
-    model = torch.nn.Sequential(*list(original_model.children())[:-4])
+    model = torch.nn.Sequential(*list(original_model.children()))
     print(model)
+    b = model(a)
+    print(b.shape)
