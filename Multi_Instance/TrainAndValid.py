@@ -109,7 +109,7 @@ if __name__ == "__main__":
         print(f"valid ---- epoch == > {epoch}, auc ==> {auc(Valid_GT, Valid_pred)},  macro_f1==> {macro_f1(Valid_GT, Valid_pred)}, micro_f1 ==> {micro_f1(Valid_GT, Valid_pred)}")
         t_end  = time.time()
         print("time: ",t_end - t_start)
-        torch.save(model.state_dict(), f"Multi_Instance\\models\\model_{epoch}.pth")
+        torch.save(model.state_dict(), os.path.join("Multi_Instance", "models", f"model_{epoch}.pth"))
     plt.plot(train_loss)
     plt.savefig("result.png", dip=72)
     plt.show()
