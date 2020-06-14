@@ -24,11 +24,11 @@ print(len(train_data),len(valid_data))
 
 
 # Load resnet
-resnet50 = models.resnet50(pretrained = True)
+resnet50 = models.resnet18(pretrained = False)
 for param in resnet50.parameters():
-    param.requires_grad = False
+    param.requires_grad = True
 
-fc_inputs = 8192
+fc_inputs = 2048
 resnet50.fc = nn.Sequential(
     nn.Linear(fc_inputs, 256),
     nn.ReLU(),
@@ -37,13 +37,13 @@ resnet50.fc = nn.Sequential(
     nn.Sigmoid()
 )
 
-
-resnet50 = resnet50.to('cuda:0')
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+resnet50 = resnet50.to(device)
 loss_func = nn.BCELoss()
-optimizer = optim.Adam(resnet50.parameters(), lr = 0.001)
+optimizer = optim.Adam(resnet50.parameters(), lr = 0.00005)
 
 
-def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data):
+def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data,rep):
     
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("device :",device)
@@ -67,10 +67,10 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
         print("-----train mode-----")
 
         for inputs,labels in train_data:
-            print("count item",count_item)
+          #  print("count item",count_item)
             inputs = inputs.transpose(1,3).transpose(2,3).to(device).float()
             labels = labels.to(device).float()
-
+            # print(inputs.shape)
            
             optimizer.zero_grad()
             outputs = model(inputs)
@@ -84,12 +84,14 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
             res = torch.gt(outputs,0.5)
             
             train_auc += np.sum(np.array([evaluate.auc(labels[i].cpu(),res[i].cpu()) for i in range(res.size(0))]))
-            train_macro_f1 += np.sum(np.array([evaluate.macro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
-            train_micro_f1 += np.sum(np.array([evaluate.micro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
+            train_macro_f1 += np.sum(np.array([evaluate.macro_f1(labels[i].cpu(),res[i].cpu())  for i in range(res.size(0))]))
+            train_micro_f1 += np.sum(np.array([evaluate.micro_f1(labels[i].cpu(),res[i].cpu())  for i in range(res.size(0))]))
             count_item += labels.size(0)
+            # if (count_item > 128):
+            #     break
         print("train ---- epoch == > {},loss==>{}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch,train_loss/count_item,train_auc/count_item,train_macro_f1/count_item,train_micro_f1/count_item))
-        epochs_end  =time.time()
-        print("time : ",epochs_end - epoch_start)
+        epoch_end  =time.time()
+        print("time : ",epoch_end - epoch_start)
         print("-----valid mode-----")
         with torch.no_grad():
             model.eval()
@@ -106,11 +108,14 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
             valid_macro_f1 += np.sum(np.array([evaluate.macro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
             valid_micro_f1 += np.sum(np.array([evaluate.micro_f1(labels[0].cpu(),res[0].cpu())  for i in range(res.size(0))]))
             count_valid += labels.size(0)
+            # if (count_valid> 128):
+            #     break
         print("valid ---- epoch == > {},loss == {}, auc ==> {},  macro_f1==> {}, micro_f1 ==> {}".format(epoch, valid_loss/count_valid, valid_auc/count_valid, valid_macro_f1/count_valid, valid_micro_f1/count_valid))
         epochs_end  =time.time()
         print("time : ",epochs_end - epoch_start)
         history.append([train_auc/count_item,train_macro_f1/count_item,train_micro_f1/count_item, valid_auc/count_valid, valid_macro_f1/count_valid, valid_micro_f1/count_valid])
-        torch.save(model, 'models/'+'resnet'+str(epoch+1)+'.pt')
+        epoch_begin = 8 + rep
+        torch.save(model, 'not_freeze_models/'+'resnet'+str(epoch+ 3 +epoch_begin)+'.pt')
     return model
 
 
@@ -119,6 +124,11 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
 if __name__ == "__main__":
 
     epochs = 1
-    train_and_valid(resnet50,loss_func,optimizer,epochs,train_data,valid_data)
+    for i in range(3):
+        model = torch.load("not_freeze_models/resnet{}.pt".format(10+i)).to(device)
+        for param in model.parameters():
+            print(param.requires_grad)
+        print("not_freeze_models/resnet{}.pt".format(10+i))
+        train_and_valid(model,loss_func,optimizer,epochs,train_data,valid_data,i)
    # print(resnet50)
     #print(fc_inputs)
