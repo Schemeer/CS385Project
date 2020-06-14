@@ -58,7 +58,7 @@ def train_and_valid(model, loss_function,optimizer,epochs,train_data,valid_data)
         train_micro_f1 = 0.0
 
         valid_loss = 0.0
-        valid_acc = 0.0
+        valid_auc = 0.0
         valid_macro_f1 = 0.0
         valid_micro_f1 = 0.0
 

@@ -8,6 +8,7 @@ from PIL import Image
 import os
 import random
 
+DATA_DIR = '../DataSet/'
 
 class DataProceess():
     def __init__(self,trainFold = 7,validFold = 1, testFold = 2):
@@ -17,8 +18,8 @@ class DataProceess():
 
 
     def produce_txt(self):
-        with open("DataSet/train.csv",'r') as f:
-            myfile = open("Total.txt","w")
+        with open(DATA_DIR + "train.csv",'r') as f:
+            myfile = open(DATA_DIR + "Total.txt","w")
             reader = csv.reader(f)
             for row in reader:
                 row[1] = row[1].split(';')
@@ -31,17 +32,18 @@ class DataProceess():
                     str1 += str(i)
      
     
-                path = os.path.join("DataSet/train",row[0])
+                path = os.path.join(DATA_DIR + "train",row[0])
                 for (root, dirs, files) in os.walk(path):
-                    imagepath =[os.path.join(root,i) for i in files]
-                    fileinfo = [i+ str1 for i in imagepath]
-                    #print(fileinfo[0])
+                    imagepath = [os.path.join(root, i) for i in files]
+                    print(imagepath)
+                    fileinfo = [i + str1 for i in imagepath]
+                    # print(fileinfo[0])
                     for i in fileinfo:
                         myfile.write(i)
                         myfile.write('\n')
 
     def Fold(self):
-        file1 = open("Total.txt")
+        file1 = open(DATA_DIR + "Total.txt")
         files = file1.readlines()
         length = len(files) - 1
  
@@ -57,9 +59,9 @@ class DataProceess():
         valid = shuffle[rate1:rate2]
         test = shuffle[rate2:]
 
-        nf = open("tr.txt",'w')
-        nv = open("tv.txt",'w')
-        nt = open("te.txt",'w')
+        nf = open(DATA_DIR + "tr.txt", 'w')
+        nv = open(DATA_DIR + "tv.txt", 'w')
+        nt = open(DATA_DIR + "te.txt", 'w')
 
         for i in train:
             nf.write(files[i])
@@ -70,10 +72,6 @@ class DataProceess():
         for i in test:
             nt.write(files[i])
   
-
-# test = DataProceess()
-# test.produce_txt()
-# test.Fold()
 
 
 #produce_txt()
@@ -131,19 +129,23 @@ class ImageDataset(Dataset):
 
 
 if __name__ == "__main__":
-    train_filename = "Total.txt"
+    test = DataProceess()
+    test.produce_txt()
+    test.Fold()
 
-    epoch_num = 1
-    batch_size = 3000
-    # train_data_nums = 1000
-    # max_interate = int((train_data_nums+batch_size-1)/batch_size*epoch_num)
-    count = 0
-    train_data = ImageDataset(train_filename)
-    train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
-    for epoch in range(epoch_num):
-        for batch_image, batch_label in train_loader:
-            count+=1
-            print(batch_image.shape)
-            print(batch_label.shape)
-            print(count)
+    # train_filename = "Total.txt"
+    #
+    # epoch_num = 1
+    # batch_size = 3000
+    # # train_data_nums = 1000
+    # # max_interate = int((train_data_nums+batch_size-1)/batch_size*epoch_num)
+    # count = 0
+    # train_data = ImageDataset(train_filename)
+    # train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
+    # for epoch in range(epoch_num):
+    #     for batch_image, batch_label in train_loader:
+    #         count+=1
+    #         print(batch_image.shape)
+    #         print(batch_label.shape)
+    #         print(count)
 #             print("batch_image.shape:{},batch_label:{}".format(batch_image.shape,batch_label))

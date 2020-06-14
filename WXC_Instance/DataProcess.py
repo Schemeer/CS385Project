@@ -45,8 +45,8 @@ class DataProceess():
                     str1 += str(i)
 
                 for (root, dirs, files) in os.walk(path):
-                    imagepath =[os.path.join(root,i) for i in files]
-                    fileinfo = [i+ str1 for i in imagepath]
+                    imagepath = [os.path.join(root,i) for i in files]
+                    fileinfo = [i + str1 for i in imagepath]
                     #print(fileinfo[0])
                     for i in fileinfo:
                         myfile.write(i)

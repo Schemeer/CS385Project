@@ -127,7 +127,7 @@ for valid_inputs, labels in val_DataLoader:
 
     res = torch.gt(outputs, 0.5)
 
-    valid_auc += np.sum(np.array([evaluate.auc(labels[i].cpu(), res[i].cpu()) for i in range(res.size(0))]))
+    valid_auc += np.sum(np.array([evaluate.auc(labels[:, i].cpu(), res[:, i].cpu()) for i in range(res.size(0))]))
     valid_macro_f1 += np.sum(np.array([evaluate.macro_f1(labels[0].cpu(), res[0].cpu()) for i in range(res.size(0))]))
     valid_micro_f1 += np.sum(np.array([evaluate.micro_f1(labels[0].cpu(), res[0].cpu()) for i in range(res.size(0))]))
     count_valid += labels.size(0)
