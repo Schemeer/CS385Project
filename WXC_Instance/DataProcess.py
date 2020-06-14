@@ -18,26 +18,32 @@ class DataProceess():
 
 
     def produce_txt(self):
+        counts = [0 for _ in range(10)]
         with open("../DataSet/train.csv",'r') as f:
             myfile = open("./Total.txt","w")
             reader = csv.reader(f)
             print(type(reader))
             for row in reader:
+                path = os.path.join("../DataSet/train",row[0])
+
                 # if len(row[1]) == 1:
                 #     row[1] = row[1]+";-1;-1"
                 # if len(row[1]) == 3:
                 #     row[1] = row[1]+";-1"
-                row[1] = row[1].split(';')
+                labels = row[1].split(';')
+                # if len(labels) > 1:
+                #     continue
+
                 l= [0 for i in range(10)]
-                for  i in row[1]:
-                   l[int(i)] = 1
-                str1 =''
+                for i in labels:
+                    l[int(i)] = 1
+                    # counts[int(i)] += 1 * len(os.listdir(path))
+
+                str1 = ''
                 for i in l:
                     str1 += ' '
                     str1 += str(i)
-     
-    
-                path = os.path.join("../DataSet/train",row[0])
+
                 for (root, dirs, files) in os.walk(path):
                     imagepath =[os.path.join(root,i) for i in files]
                     fileinfo = [i+ str1 for i in imagepath]
@@ -45,6 +51,8 @@ class DataProceess():
                     for i in fileinfo:
                         myfile.write(i)
                         myfile.write('\n')
+        print(counts)
+
 
     def Fold(self):
         file1 = open("./Total.txt")
@@ -61,7 +69,7 @@ class DataProceess():
         test = shuffle[:rate]
 
         nf = open("./tr.txt",'w')
-        nt = open("./te.txt",'w')
+        nt = open("tem.txt", 'w')
   
         for i in train:
             nf.write(files[i])
@@ -133,14 +141,14 @@ class ImageDataset(Dataset):
 if __name__ == "__main__":
     train_filename = "./Total.txt"
 
-    epoch_num = 2
-    batch_size = 3000
-    # train_data_nums = 1000
-    # max_interate = int((train_data_nums+batch_size-1)/batch_size*epoch_num)
-    train_data = ImageDataset(train_filename)
-    train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
-    for epoch in range(epoch_num):
-        for batch_image, batch_label in train_loader:
-            print(batch_image.shape)
-            print(batch_label.shape)
+    # epoch_num = 2
+    # batch_size = 3000
+    # # train_data_nums = 1000
+    # # max_interate = int((train_data_nums+batch_size-1)/batch_size*epoch_num)
+    # train_data = ImageDataset(train_filename)
+    # train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
+    # for epoch in range(epoch_num):
+    #     for batch_image, batch_label in train_loader:
+    #         print(batch_image.shape)
+    #         print(batch_label.shape)
 #             print("batch_image.shape:{},batch_label:{}".format(batch_image.shape,batch_label))
