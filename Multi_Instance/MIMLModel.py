@@ -32,15 +32,13 @@ class ImPlocMIML(nn.Module):
         super(ImPlocMIML, self).__init__()
         self.group_size = group_size
         basemodel = models.resnet18(pretrained=True)
-        self.feature_extractor = nn.Sequential(*list(basemodel.children())[:-1])
-        self.Transformer = Transformer("res18-512")
-        for p in self.feature_extractor.parameters():
-            p.require_grad = False
+        self.feature_extractor = nn.Sequential(*list(basemodel.children())[:-4])
+        self.Transformer = Transformer("res18-128")
     
     def forward(self, x):
         x = self.feature_extractor(x)
         x = torch.flatten(x, 1)
-        x = x.view(-1, 8, 512)
+        x = x.view(-1, 8, 128)
         x = self.Transformer(x)
         return x
 

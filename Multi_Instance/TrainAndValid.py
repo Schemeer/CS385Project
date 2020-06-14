@@ -29,7 +29,7 @@ def micro_f1(y_true,y_pred):
 def threshold_tensor_batch(pred, base=0.5):
     p_max = torch.max(pred, dim=1)[0]
     pivot = torch.cuda.FloatTensor([base]).expand_as(p_max)
-    threshold = torch.min(p_max, pivot)
+    threshold = torch.min(0.9*p_max, pivot)
     pred_label = torch.ge(pred, threshold.unsqueeze(dim=1))
     return pred_label
 
@@ -38,14 +38,14 @@ if __name__ == "__main__":
 
 
     epoch_num = 5
-    batch_size = 1
+    batch_size = 2
     group_size = 8
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = ImPlocMIML(group_size=group_size)
     # model.load_state_dict(torch.load("Multi_Instance\\models\\model_2.pth"))
     model.to(device)
     loss_func = nn.BCELoss(reduction="none")
-    optimizer = optim.Adam(model.parameters(), lr=0.0001, weight_decay=0.001)
+    optimizer = optim.Adam(model.parameters(), lr=0.00005, weight_decay=0.0005)
 
     transform = transforms.Compose([transforms.ToTensor()])
     train_loss = []
@@ -70,8 +70,8 @@ if __name__ == "__main__":
 
             output = model(batch_image)
             all_loss = loss_func(output, batch_label)
-            label_loss = torch.mean(all_loss, dim=0)
-            loss = torch.mean(label_loss)
+            label_loss = torch.sum(all_loss, dim=0)
+            loss = torch.sum(label_loss)
             loss.backward()
 
             optimizer.step()
@@ -80,8 +80,8 @@ if __name__ == "__main__":
             res = threshold_tensor_batch(output, 0.5)
             Train_pred.append(res.cpu().numpy())
             Train_GT.append(batch_label.cpu().numpy())
-        Train_pred = np.array(Train_pred).reshape(-1,10)
-        Train_GT = np.array(Train_GT).reshape(-1,10)
+        Train_pred = np.concatenate(Train_pred)
+        Train_GT = np.concatenate(Train_GT)
         print(Train_pred[-10:])
         print(Train_GT[-10:])
         print(f"train ---- epoch == > {epoch}, auc ==> {auc(Train_GT, Train_pred)},  macro_f1==> {macro_f1(Train_GT, Train_pred)}, micro_f1 ==> {micro_f1(Train_GT, Train_pred)}")
@@ -102,8 +102,8 @@ if __name__ == "__main__":
             Valid_pred.append(res.cpu().numpy())
             Valid_GT.append(batch_label.numpy())
 
-        Valid_pred = np.array(Valid_pred).reshape(-1,10)
-        Valid_GT = np.array(Valid_GT).reshape(-1,10)
+        Valid_pred = np.concatenate(Valid_pred)
+        Valid_GT = np.concatenate(Valid_GT)
         print(Valid_pred[-10:])
         print(Valid_GT[-10:])
         print(f"valid ---- epoch == > {epoch}, auc ==> {auc(Valid_GT, Valid_pred)},  macro_f1==> {macro_f1(Valid_GT, Valid_pred)}, micro_f1 ==> {micro_f1(Valid_GT, Valid_pred)}")
