@@ -42,6 +42,9 @@ if __name__ == "__main__":
     group_size = 8
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = ImPlocMIML(group_size=group_size)
+    model_dir = os.path.join("Multi_Instance", "models")
+    if not os.path.exists(model_dir):
+        os.mkdir(model_dir)
     # model.load_state_dict(torch.load("Multi_Instance\\models\\model_2.pth"))
     model.to(device)
     loss_func = nn.BCELoss(reduction="none")
@@ -109,7 +112,8 @@ if __name__ == "__main__":
         print(f"valid ---- epoch == > {epoch}, auc ==> {auc(Valid_GT, Valid_pred)},  macro_f1==> {macro_f1(Valid_GT, Valid_pred)}, micro_f1 ==> {micro_f1(Valid_GT, Valid_pred)}")
         t_end  = time.time()
         print("time: ",t_end - t_start)
-        torch.save(model.state_dict(), os.path.join("Multi_Instance", "models", f"model_{epoch}.pth"))
+        
+        torch.save(model.state_dict(), os.path.join(model_dir, f"model_{epoch}.pth"))
     plt.plot(train_loss)
     plt.savefig("result.png", dip=72)
     plt.show()
