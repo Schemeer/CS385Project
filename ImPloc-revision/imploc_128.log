@@ -1,0 +1,1934 @@
+nohup: ignoring input
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+------load model--------
+------epoch-------- 0
+------run val----------- 1
+----------val result--------
+	auc===>:0.8913613382409877, micro_f1===>:0.576271186440678, macro_f1===>:0.38030650721827186
+---------save best----------
+	 f1 0.494931441937022
+------epoch-------- 1
+------run val----------- 2
+----------val result--------
+	auc===>:0.8902422704588362, micro_f1===>:0.5546218487394958, macro_f1===>:0.3688475038475038
+------epoch-------- 2
+------run val----------- 3
+----------val result--------
+	auc===>:0.8953231808856849, micro_f1===>:0.588235294117647, macro_f1===>:0.3881496444731739
+---------save best----------
+	 loss 0.21364502608776093
+---------save best----------
+	 f1 0.5062632706869358
+------epoch-------- 3
+------run val----------- 4
+----------val result--------
+	auc===>:0.8940576332832212, micro_f1===>:0.6000000000000001, macro_f1===>:0.4242013121037889
+---------save best----------
+	 f1 0.5241750690813873
+------epoch-------- 4
+------run val----------- 5
+----------val result--------
+	auc===>:0.8948030647891567, micro_f1===>:0.6000000000000001, macro_f1===>:0.4183593599383073
+---------save best----------
+	 loss 0.21257257461547852
+------epoch-------- 5
+------run val----------- 6
+----------val result--------
+	auc===>:0.8971836774330748, micro_f1===>:0.6000000000000001, macro_f1===>:0.4212439753229226
+---------save best----------
+	 loss 0.21228785812854767
+------epoch-------- 6
+------run val----------- 7
+----------val result--------
+	auc===>:0.894198779770306, micro_f1===>:0.5833333333333334, macro_f1===>:0.41787240537240533
+------epoch-------- 7
+------run val----------- 8
+----------val result--------
+	auc===>:0.899109375917597, micro_f1===>:0.6115702479338844, macro_f1===>:0.43086834733893553
+---------save best----------
+	 loss 0.21213756501674652
+------epoch-------- 8
+------run val----------- 9
+----------val result--------
+	auc===>:0.8956630178872051, micro_f1===>:0.6000000000000001, macro_f1===>:0.39848257006151744
+------epoch-------- 9
+------run val----------- 10
+----------val result--------
+	auc===>:0.8981007823788097, micro_f1===>:0.5785123966942148, macro_f1===>:0.3853357658853015
+------epoch-------- 10
+------run val----------- 11
+----------val result--------
+	auc===>:0.896197021232133, micro_f1===>:0.6166666666666666, macro_f1===>:0.43884416924664593
+---------save best----------
+	 f1 0.5384607761623657
+------epoch-------- 11
+------run val----------- 12
+----------val result--------
+	auc===>:0.9001277213595303, micro_f1===>:0.5833333333333334, macro_f1===>:0.4172619047619047
+---------save best----------
+	 loss 0.2120078057050705
+------epoch-------- 12
+------run val----------- 13
+----------val result--------
+	auc===>:0.8985120853615414, micro_f1===>:0.5619834710743801, macro_f1===>:0.3819627500122856
+------epoch-------- 13
+------run val----------- 14
+----------val result--------
+	auc===>:0.8909092508533261, micro_f1===>:0.5833333333333334, macro_f1===>:0.38823260073260074
+------epoch-------- 14
+------run val----------- 15
+----------val result--------
+	auc===>:0.8937506884951025, micro_f1===>:0.6000000000000001, macro_f1===>:0.43011904761904757
+------epoch-------- 15
+------run val----------- 16
+----------val result--------
+	auc===>:0.8987018567845876, micro_f1===>:0.6229508196721312, macro_f1===>:0.4400187668119357
+------epoch-------- 16
+------run val----------- 17
+----------val result--------
+	auc===>:0.8863982316308224, micro_f1===>:0.5833333333333334, macro_f1===>:0.4135866910866911
+------epoch-------- 17
+------run val----------- 18
+----------val result--------
+	auc===>:0.8944965908446463, micro_f1===>:0.6000000000000001, macro_f1===>:0.42959276018099546
+------epoch-------- 18
+------run val----------- 19
+----------val result--------
+	auc===>:0.8964313036153306, micro_f1===>:0.5950413223140496, macro_f1===>:0.39848257006151744
+------epoch-------- 19
+------run val----------- 20
+----------val result--------
+	auc===>:0.8906851384163283, micro_f1===>:0.6000000000000001, macro_f1===>:0.4230311355311356
+------epoch-------- 20
+------run val----------- 21
+----------val result--------
+	auc===>:0.8958368827289744, micro_f1===>:0.5950413223140496, macro_f1===>:0.3973245614035088
+------epoch-------- 21
+------run val----------- 22
+----------val result--------
+	auc===>:0.8931959948227618, micro_f1===>:0.5714285714285715, macro_f1===>:0.3790524671407024
+------epoch-------- 22
+------run val----------- 23
+----------val result--------
+	auc===>:0.893694761638837, micro_f1===>:0.6166666666666666, macro_f1===>:0.4423406727431495
+---------save best----------
+	 f1 0.5427080365372775
+------epoch-------- 23
+------run val----------- 24
+----------val result--------
+	auc===>:0.895664142195671, micro_f1===>:0.5785123966942148, macro_f1===>:0.3822879313668787
+------epoch-------- 24
+------run val----------- 25
+----------val result--------
+	auc===>:0.8901701620554137, micro_f1===>:0.6166666666666666, macro_f1===>:0.43607142857142855
+------epoch-------- 25
+------run val----------- 26
+----------val result--------
+	auc===>:0.8956431531732815, micro_f1===>:0.6000000000000001, macro_f1===>:0.4011340852130326
+------epoch-------- 26
+------run val----------- 27
+----------val result--------
+	auc===>:0.8931515052320537, micro_f1===>:0.6166666666666666, macro_f1===>:0.4341011181800655
+---------save best----------
+	 loss 0.2117888480424881
+------epoch-------- 27
+------run val----------- 28
+----------val result--------
+	auc===>:0.8896647302530631, micro_f1===>:0.5666666666666667, macro_f1===>:0.3711741921649042
+------epoch-------- 28
+------run val----------- 29
+----------val result--------
+	auc===>:0.888612642751396, micro_f1===>:0.5833333333333334, macro_f1===>:0.4081839960864729
+------epoch-------- 29
+------run val----------- 30
+----------val result--------
+	auc===>:0.8891471950338472, micro_f1===>:0.5546218487394958, macro_f1===>:0.36619406737053795
+------epoch-------- 30
+------run val----------- 31
+----------val result--------
+	auc===>:0.8965889677543315, micro_f1===>:0.6166666666666666, macro_f1===>:0.4341011181800655
+------epoch-------- 31
+------run val----------- 32
+----------val result--------
+	auc===>:0.8985473290886621, micro_f1===>:0.6115702479338844, macro_f1===>:0.4374358974358974
+------epoch-------- 32
+------run val----------- 33
+----------val result--------
+	auc===>:0.8985718059701189, micro_f1===>:0.5666666666666667, macro_f1===>:0.3849039264828738
+------epoch-------- 33
+------run val----------- 34
+----------val result--------
+	auc===>:0.8997775020695352, micro_f1===>:0.6115702479338844, macro_f1===>:0.43203612479474546
+------epoch-------- 34
+------run val----------- 35
+----------val result--------
+	auc===>:0.8969301777426004, micro_f1===>:0.5785123966942148, macro_f1===>:0.4061313102102576
+------epoch-------- 35
+------run val----------- 36
+----------val result--------
+	auc===>:0.8932487110659542, micro_f1===>:0.5833333333333334, macro_f1===>:0.3984816490698843
+------epoch-------- 36
+------run val----------- 37
+----------val result--------
+	auc===>:0.8999101551307597, micro_f1===>:0.5785123966942148, macro_f1===>:0.4061313102102576
+------epoch-------- 37
+------run val----------- 38
+----------val result--------
+	auc===>:0.8903087018017966, micro_f1===>:0.5785123966942148, macro_f1===>:0.40290065197959934
+------epoch-------- 38
+------run val----------- 39
+----------val result--------
+	auc===>:0.8935821019721741, micro_f1===>:0.6333333333333334, macro_f1===>:0.4472604588394062
+------epoch-------- 39
+------run val----------- 40
+----------val result--------
+	auc===>:0.8922646830546966, micro_f1===>:0.6115702479338844, macro_f1===>:0.4364912280701754
+------epoch-------- 40
+------run val----------- 41
+----------val result--------
+	auc===>:0.8988625412133979, micro_f1===>:0.5950413223140496, macro_f1===>:0.42115656273551016
+------epoch-------- 41
+------run val----------- 42
+----------val result--------
+	auc===>:0.8978225978127288, micro_f1===>:0.6115702479338844, macro_f1===>:0.4364912280701754
+------epoch-------- 42
+------run val----------- 43
+----------val result--------
+	auc===>:0.8910634776404432, micro_f1===>:0.6166666666666666, macro_f1===>:0.4366652207441681
+------epoch-------- 43
+------run val----------- 44
+----------val result--------
+	auc===>:0.8896893551298476, micro_f1===>:0.6166666666666666, macro_f1===>:0.4325280944296225
+------epoch-------- 44
+------run val----------- 45
+----------val result--------
+	auc===>:0.8919237195308785, micro_f1===>:0.6166666666666666, macro_f1===>:0.43380952380952376
+------epoch-------- 45
+------run val----------- 46
+----------val result--------
+	auc===>:0.8908053365651567, micro_f1===>:0.6000000000000001, macro_f1===>:0.4075681181563534
+------epoch-------- 46
+------run val----------- 47
+----------val result--------
+	auc===>:0.8887973531027729, micro_f1===>:0.6166666666666666, macro_f1===>:0.4283528836754643
+------epoch-------- 47
+------run val----------- 48
+----------val result--------
+	auc===>:0.8943086098813738, micro_f1===>:0.588235294117647, macro_f1===>:0.39526057276057275
+------epoch-------- 48
+------run val----------- 49
+----------val result--------
+	auc===>:0.893371182064557, micro_f1===>:0.6115702479338844, macro_f1===>:0.43998773156667886
+------epoch-------- 49
+------run val----------- 50
+----------val result--------
+	auc===>:0.8999361358934351, micro_f1===>:0.5950413223140496, macro_f1===>:0.4185612769333932
+------epoch-------- 50
+------run val----------- 51
+----------val result--------
+	auc===>:0.8975363246869013, micro_f1===>:0.6065573770491803, macro_f1===>:0.4342454346479114
+------epoch-------- 51
+------run val----------- 52
+----------val result--------
+	auc===>:0.8947474959771226, micro_f1===>:0.6115702479338844, macro_f1===>:0.43341991341991337
+------epoch-------- 52
+------run val----------- 53
+----------val result--------
+	auc===>:0.8913897283023724, micro_f1===>:0.5714285714285715, macro_f1===>:0.40307692307692305
+------epoch-------- 53
+------run val----------- 54
+----------val result--------
+	auc===>:0.8928894395099854, micro_f1===>:0.6050420168067226, macro_f1===>:0.4332692307692307
+------epoch-------- 54
+------run val----------- 55
+----------val result--------
+	auc===>:0.8994617343790363, micro_f1===>:0.5950413223140496, macro_f1===>:0.4185924601714076
+------epoch-------- 55
+------run val----------- 56
+----------val result--------
+	auc===>:0.8997586643350111, micro_f1===>:0.5901639344262295, macro_f1===>:0.41695675971538043
+------epoch-------- 56
+------run val----------- 57
+----------val result--------
+	auc===>:0.8893597079592455, micro_f1===>:0.5737704918032787, macro_f1===>:0.4155817711700064
+------epoch-------- 57
+------run val----------- 58
+----------val result--------
+	auc===>:0.8950598957266601, micro_f1===>:0.5901639344262295, macro_f1===>:0.42159789556848387
+------epoch-------- 58
+------run val----------- 59
+----------val result--------
+	auc===>:0.8903456980088794, micro_f1===>:0.5785123966942148, macro_f1===>:0.41567460317460314
+------epoch-------- 59
+------run val----------- 60
+----------val result--------
+	auc===>:0.8955929248927426, micro_f1===>:0.5950413223140496, macro_f1===>:0.4224985540775014
+------epoch-------- 60
+------run val----------- 61
+----------val result--------
+	auc===>:0.8883886424642075, micro_f1===>:0.5833333333333334, macro_f1===>:0.3978711484593837
+------epoch-------- 61
+------run val----------- 62
+----------val result--------
+	auc===>:0.8907467330667773, micro_f1===>:0.5932203389830507, macro_f1===>:0.42142857142857143
+------epoch-------- 62
+------run val----------- 63
+----------val result--------
+	auc===>:0.8902777600803787, micro_f1===>:0.6166666666666666, macro_f1===>:0.43607142857142855
+------epoch-------- 63
+------run val----------- 64
+----------val result--------
+	auc===>:0.8947743315705663, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 64
+------run val----------- 65
+----------val result--------
+	auc===>:0.8967550978119997, micro_f1===>:0.6166666666666666, macro_f1===>:0.4423406727431495
+------epoch-------- 65
+------run val----------- 66
+----------val result--------
+	auc===>:0.888973967126107, micro_f1===>:0.6000000000000001, macro_f1===>:0.4199013352239159
+------epoch-------- 66
+------run val----------- 67
+----------val result--------
+	auc===>:0.8923462904143966, micro_f1===>:0.6166666666666666, macro_f1===>:0.4423406727431495
+------epoch-------- 67
+------run val----------- 68
+----------val result--------
+	auc===>:0.8954500638259676, micro_f1===>:0.5714285714285715, macro_f1===>:0.404005994005994
+------epoch-------- 68
+------run val----------- 69
+----------val result--------
+	auc===>:0.8910762593250379, micro_f1===>:0.5714285714285715, macro_f1===>:0.4028619909502263
+------epoch-------- 69
+------run val----------- 70
+----------val result--------
+	auc===>:0.8925567449665881, micro_f1===>:0.5714285714285715, macro_f1===>:0.3828571428571429
+------epoch-------- 70
+------run val----------- 71
+----------val result--------
+	auc===>:0.8970283604596678, micro_f1===>:0.5785123966942148, macro_f1===>:0.40440843630996437
+------epoch-------- 71
+------run val----------- 72
+----------val result--------
+	auc===>:0.8958628201031953, micro_f1===>:0.5666666666666667, macro_f1===>:0.3849039264828738
+------epoch-------- 72
+------run val----------- 73
+----------val result--------
+	auc===>:0.8919702311587855, micro_f1===>:0.6050420168067226, macro_f1===>:0.4332692307692307
+------epoch-------- 73
+------run val----------- 74
+----------val result--------
+	auc===>:0.9001464595511564, micro_f1===>:0.5950413223140496, macro_f1===>:0.42246753246753244
+------epoch-------- 74
+------run val----------- 75
+----------val result--------
+	auc===>:0.8916348776441604, micro_f1===>:0.6115702479338844, macro_f1===>:0.4364912280701754
+------epoch-------- 75
+------run val----------- 76
+----------val result--------
+	auc===>:0.8909009791685838, micro_f1===>:0.6166666666666666, macro_f1===>:0.43882039315796123
+------epoch-------- 76
+------run val----------- 77
+----------val result--------
+	auc===>:0.8918939043317584, micro_f1===>:0.6166666666666666, macro_f1===>:0.4366652207441681
+------epoch-------- 77
+------run val----------- 78
+----------val result--------
+	auc===>:0.8914800204717148, micro_f1===>:0.6166666666666666, macro_f1===>:0.4123245614035088
+------epoch-------- 78
+------run val----------- 79
+----------val result--------
+	auc===>:0.8952871545093224, micro_f1===>:0.5950413223140496, macro_f1===>:0.4181578947368421
+------epoch-------- 79
+------run val----------- 80
+----------val result--------
+	auc===>:0.8981924882190337, micro_f1===>:0.5619834710743801, macro_f1===>:0.38207282913165264
+------epoch-------- 80
+------run val----------- 81
+----------val result--------
+	auc===>:0.8934575396845281, micro_f1===>:0.6000000000000001, macro_f1===>:0.4049699298957332
+------epoch-------- 81
+------run val----------- 82
+----------val result--------
+	auc===>:0.8890749001647965, micro_f1===>:0.6218487394957983, macro_f1===>:0.44429971988795514
+------epoch-------- 82
+------run val----------- 83
+----------val result--------
+	auc===>:0.8961838265684594, micro_f1===>:0.5901639344262295, macro_f1===>:0.42159789556848387
+------epoch-------- 83
+------run val----------- 84
+----------val result--------
+	auc===>:0.8861004618106436, micro_f1===>:0.5901639344262295, macro_f1===>:0.4247222222222223
+------epoch-------- 84
+------run val----------- 85
+----------val result--------
+	auc===>:0.8908574559884246, micro_f1===>:0.6333333333333334, macro_f1===>:0.4472604588394062
+------epoch-------- 85
+------run val----------- 86
+----------val result--------
+	auc===>:0.8926033957477513, micro_f1===>:0.6000000000000001, macro_f1===>:0.42959276018099546
+------epoch-------- 86
+------run val----------- 87
+----------val result--------
+	auc===>:0.8946959733737794, micro_f1===>:0.5950413223140496, macro_f1===>:0.4195371295371295
+------epoch-------- 87
+------run val----------- 88
+----------val result--------
+	auc===>:0.8926211069599773, micro_f1===>:0.6166666666666666, macro_f1===>:0.4332142857142857
+------epoch-------- 88
+------run val----------- 89
+----------val result--------
+	auc===>:0.8943025588158804, micro_f1===>:0.5950413223140496, macro_f1===>:0.4124654377880185
+------epoch-------- 89
+------run val----------- 90
+----------val result--------
+	auc===>:0.8902285867769223, micro_f1===>:0.6000000000000001, macro_f1===>:0.42630807788702524
+------epoch-------- 90
+------run val----------- 91
+----------val result--------
+	auc===>:0.8913744757559817, micro_f1===>:0.6050420168067226, macro_f1===>:0.4084787018255578
+------epoch-------- 91
+------run val----------- 92
+----------val result--------
+	auc===>:0.8941161537695314, micro_f1===>:0.5901639344262295, macro_f1===>:0.42159789556848387
+------epoch-------- 92
+------run val----------- 93
+----------val result--------
+	auc===>:0.8898940303080749, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 93
+------run val----------- 94
+----------val result--------
+	auc===>:0.8931559359183943, micro_f1===>:0.5833333333333334, macro_f1===>:0.3977610693400167
+------epoch-------- 94
+------run val----------- 95
+----------val result--------
+	auc===>:0.8913152805016529, micro_f1===>:0.6166666666666666, macro_f1===>:0.4366652207441681
+------epoch-------- 95
+------run val----------- 96
+----------val result--------
+	auc===>:0.8907671231349493, micro_f1===>:0.588235294117647, macro_f1===>:0.4260606060606061
+------epoch-------- 96
+------run val----------- 97
+----------val result--------
+	auc===>:0.8927964135498497, micro_f1===>:0.5785123966942148, macro_f1===>:0.3917697988286223
+------epoch-------- 97
+------run val----------- 98
+----------val result--------
+	auc===>:0.8878516099873991, micro_f1===>:0.6000000000000001, macro_f1===>:0.43071283979178715
+------epoch-------- 98
+------run val----------- 99
+----------val result--------
+	auc===>:0.8928590710252167, micro_f1===>:0.5645161290322581, macro_f1===>:0.4100764921353156
+------epoch-------- 99
+------run val----------- 100
+----------val result--------
+	auc===>:0.8868222447529333, micro_f1===>:0.5833333333333334, macro_f1===>:0.4172619047619047
+------epoch-------- 100
+------run val----------- 101
+----------val result--------
+	auc===>:0.8895396597120262, micro_f1===>:0.6166666666666666, macro_f1===>:0.4423406727431495
+------epoch-------- 101
+------run val----------- 102
+----------val result--------
+	auc===>:0.890412413159791, micro_f1===>:0.6050420168067226, macro_f1===>:0.43713203463203454
+------epoch-------- 102
+------run val----------- 103
+----------val result--------
+	auc===>:0.8898223349632703, micro_f1===>:0.5714285714285715, macro_f1===>:0.40857142857142864
+------epoch-------- 103
+------run val----------- 104
+----------val result--------
+	auc===>:0.8897813811140305, micro_f1===>:0.5833333333333334, macro_f1===>:0.4172619047619047
+------epoch-------- 104
+------run val----------- 105
+----------val result--------
+	auc===>:0.8969481062815372, micro_f1===>:0.5528455284552846, macro_f1===>:0.3986385836385836
+------epoch-------- 105
+------run val----------- 106
+----------val result--------
+	auc===>:0.8956783039857432, micro_f1===>:0.628099173553719, macro_f1===>:0.4412017015242822
+------epoch-------- 106
+------run val----------- 107
+----------val result--------
+	auc===>:0.8895595123095286, micro_f1===>:0.5619834710743801, macro_f1===>:0.38801747959642696
+------epoch-------- 107
+------run val----------- 108
+----------val result--------
+	auc===>:0.8925693549930408, micro_f1===>:0.6166666666666666, macro_f1===>:0.4356705659931467
+------epoch-------- 108
+------run val----------- 109
+----------val result--------
+	auc===>:0.8929593086953194, micro_f1===>:0.6000000000000001, macro_f1===>:0.42596325030081833
+------epoch-------- 109
+------run val----------- 110
+----------val result--------
+	auc===>:0.8930695349099688, micro_f1===>:0.6166666666666666, macro_f1===>:0.440074311653259
+------epoch-------- 110
+------run val----------- 111
+----------val result--------
+	auc===>:0.8908740550086064, micro_f1===>:0.6050420168067226, macro_f1===>:0.4332692307692307
+------epoch-------- 111
+------run val----------- 112
+----------val result--------
+	auc===>:0.8884742438020725, micro_f1===>:0.5785123966942148, macro_f1===>:0.4028379953379953
+------epoch-------- 112
+------run val----------- 113
+----------val result--------
+	auc===>:0.8900290227665968, micro_f1===>:0.588235294117647, macro_f1===>:0.4238095238095238
+------epoch-------- 113
+------run val----------- 114
+----------val result--------
+	auc===>:0.8946033484353789, micro_f1===>:0.588235294117647, macro_f1===>:0.3948076923076923
+------epoch-------- 114
+------run val----------- 115
+----------val result--------
+	auc===>:0.8900952389966786, micro_f1===>:0.588235294117647, macro_f1===>:0.4260606060606061
+------epoch-------- 115
+------run val----------- 116
+----------val result--------
+	auc===>:0.8886012769515148, micro_f1===>:0.5833333333333334, macro_f1===>:0.39682983682983686
+------epoch-------- 116
+------run val----------- 117
+----------val result--------
+	auc===>:0.8919738670131803, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 117
+------run val----------- 118
+----------val result--------
+	auc===>:0.8906054430783111, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 118
+------run val----------- 119
+----------val result--------
+	auc===>:0.8880846746569826, micro_f1===>:0.5833333333333334, macro_f1===>:0.41217750257997937
+------epoch-------- 119
+------run val----------- 120
+----------val result--------
+	auc===>:0.8915710315929193, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 120
+------run val----------- 121
+----------val result--------
+	auc===>:0.8944821195290545, micro_f1===>:0.5950413223140496, macro_f1===>:0.4199482127068334
+------epoch-------- 121
+------run val----------- 122
+----------val result--------
+	auc===>:0.8910083285152661, micro_f1===>:0.6050420168067226, macro_f1===>:0.4279324707550513
+------epoch-------- 122
+------run val----------- 123
+----------val result--------
+	auc===>:0.890699204441599, micro_f1===>:0.588235294117647, macro_f1===>:0.4260606060606061
+------epoch-------- 123
+------run val----------- 124
+----------val result--------
+	auc===>:0.8893956007368164, micro_f1===>:0.5950413223140496, macro_f1===>:0.4315508021390374
+------epoch-------- 124
+------run val----------- 125
+----------val result--------
+	auc===>:0.8921472136989692, micro_f1===>:0.6000000000000001, macro_f1===>:0.4250048480930834
+------epoch-------- 125
+------run val----------- 126
+----------val result--------
+	auc===>:0.8906179123077045, micro_f1===>:0.6000000000000001, macro_f1===>:0.4209086612312419
+------epoch-------- 126
+------run val----------- 127
+----------val result--------
+	auc===>:0.88787214748087, micro_f1===>:0.6000000000000001, macro_f1===>:0.4207255110480917
+------epoch-------- 127
+------run val----------- 128
+----------val result--------
+	auc===>:0.8896107962167177, micro_f1===>:0.588235294117647, macro_f1===>:0.4238095238095238
+------epoch-------- 128
+------run val----------- 129
+----------val result--------
+	auc===>:0.8931271548969418, micro_f1===>:0.6115702479338844, macro_f1===>:0.4367409783199257
+------epoch-------- 129
+------run val----------- 130
+----------val result--------
+	auc===>:0.8908610918428194, micro_f1===>:0.6000000000000001, macro_f1===>:0.40139256329409123
+------epoch-------- 130
+------run val----------- 131
+----------val result--------
+	auc===>:0.8873543756997929, micro_f1===>:0.5714285714285715, macro_f1===>:0.4020499108734403
+------epoch-------- 131
+------run val----------- 132
+----------val result--------
+	auc===>:0.8912849834825602, micro_f1===>:0.5950413223140496, macro_f1===>:0.4124654377880185
+------epoch-------- 132
+------run val----------- 133
+----------val result--------
+	auc===>:0.8899326210972032, micro_f1===>:0.5666666666666667, macro_f1===>:0.38501400560224086
+------epoch-------- 133
+------run val----------- 134
+----------val result--------
+	auc===>:0.8913746623011491, micro_f1===>:0.6000000000000001, macro_f1===>:0.4209086612312419
+------epoch-------- 134
+------run val----------- 135
+----------val result--------
+	auc===>:0.8851898403699915, micro_f1===>:0.6115702479338844, macro_f1===>:0.4321617940633221
+------epoch-------- 135
+------run val----------- 136
+----------val result--------
+	auc===>:0.888643004183718, micro_f1===>:0.6000000000000001, macro_f1===>:0.4320238095238095
+------epoch-------- 136
+------run val----------- 137
+----------val result--------
+	auc===>:0.8902572964122376, micro_f1===>:0.6115702479338844, macro_f1===>:0.43998773156667886
+------epoch-------- 137
+------run val----------- 138
+----------val result--------
+	auc===>:0.8901594624068405, micro_f1===>:0.5833333333333334, macro_f1===>:0.4227272727272727
+------epoch-------- 138
+------run val----------- 139
+----------val result--------
+	auc===>:0.8887292430256405, micro_f1===>:0.6115702479338844, macro_f1===>:0.43078816768969563
+------epoch-------- 139
+------run val----------- 140
+----------val result--------
+	auc===>:0.8913604554788191, micro_f1===>:0.5950413223140496, macro_f1===>:0.42710317460317465
+------epoch-------- 140
+------run val----------- 141
+----------val result--------
+	auc===>:0.8857502425206484, micro_f1===>:0.5950413223140496, macro_f1===>:0.4189294039294039
+------epoch-------- 141
+------run val----------- 142
+----------val result--------
+	auc===>:0.8877455736286433, micro_f1===>:0.5950413223140496, macro_f1===>:0.426453823953824
+------epoch-------- 142
+------run val----------- 143
+----------val result--------
+	auc===>:0.8870117273835925, micro_f1===>:0.5901639344262295, macro_f1===>:0.4238897213897214
+------epoch-------- 143
+------run val----------- 144
+----------val result--------
+	auc===>:0.8872733723582853, micro_f1===>:0.6166666666666666, macro_f1===>:0.4337658040883848
+------epoch-------- 144
+------run val----------- 145
+----------val result--------
+	auc===>:0.8904594715113898, micro_f1===>:0.6166666666666666, macro_f1===>:0.440074311653259
+------epoch-------- 145
+------run val----------- 146
+----------val result--------
+	auc===>:0.8955768269276836, micro_f1===>:0.5785123966942148, macro_f1===>:0.3874358974358974
+------epoch-------- 146
+------run val----------- 147
+----------val result--------
+	auc===>:0.8953508190793709, micro_f1===>:0.6115702479338844, macro_f1===>:0.43065018315018316
+------epoch-------- 147
+------run val----------- 148
+----------val result--------
+	auc===>:0.8980910668116714, micro_f1===>:0.5853658536585366, macro_f1===>:0.40842796092796096
+------epoch-------- 148
+------run val----------- 149
+----------val result--------
+	auc===>:0.891488159127694, micro_f1===>:0.5833333333333334, macro_f1===>:0.4227272727272727
+------epoch-------- 149
+------run val----------- 150
+----------val result--------
+	auc===>:0.8940836096977716, micro_f1===>:0.6065573770491803, macro_f1===>:0.42637218045112785
+------epoch-------- 150
+------run val----------- 151
+----------val result--------
+	auc===>:0.8896511609347906, micro_f1===>:0.5666666666666667, macro_f1===>:0.38501400560224086
+------epoch-------- 151
+------run val----------- 152
+----------val result--------
+	auc===>:0.885580164232923, micro_f1===>:0.5901639344262295, macro_f1===>:0.4238897213897214
+------epoch-------- 152
+------run val----------- 153
+----------val result--------
+	auc===>:0.8884433879428666, micro_f1===>:0.5785123966942148, macro_f1===>:0.4091968557758031
+------epoch-------- 153
+------run val----------- 154
+----------val result--------
+	auc===>:0.8926218517752295, micro_f1===>:0.5619834710743801, macro_f1===>:0.3819627500122856
+------epoch-------- 154
+------run val----------- 155
+----------val result--------
+	auc===>:0.8937137336880024, micro_f1===>:0.5806451612903226, macro_f1===>:0.4194000933706817
+------epoch-------- 155
+------run val----------- 156
+----------val result--------
+	auc===>:0.8950215821835261, micro_f1===>:0.5645161290322581, macro_f1===>:0.4074621130503483
+------epoch-------- 156
+------run val----------- 157
+----------val result--------
+	auc===>:0.894356005477789, micro_f1===>:0.6000000000000001, macro_f1===>:0.41967095157247963
+------epoch-------- 157
+------run val----------- 158
+----------val result--------
+	auc===>:0.8898947371435157, micro_f1===>:0.5546218487394958, macro_f1===>:0.3894444444444445
+------epoch-------- 158
+------run val----------- 159
+----------val result--------
+	auc===>:0.8903977602171856, micro_f1===>:0.5833333333333334, macro_f1===>:0.4227272727272727
+------epoch-------- 159
+------run val----------- 160
+----------val result--------
+	auc===>:0.891352510420454, micro_f1===>:0.5833333333333334, macro_f1===>:0.4167765567765568
+------epoch-------- 160
+------run val----------- 161
+----------val result--------
+	auc===>:0.8851046785241625, micro_f1===>:0.5833333333333334, macro_f1===>:0.4139285714285714
+------epoch-------- 161
+------run val----------- 162
+----------val result--------
+	auc===>:0.8872377424301728, micro_f1===>:0.5785123966942148, macro_f1===>:0.39406162464985994
+------epoch-------- 162
+------run val----------- 163
+----------val result--------
+	auc===>:0.8852663079940781, micro_f1===>:0.5833333333333334, macro_f1===>:0.411101617680565
+------epoch-------- 163
+------run val----------- 164
+----------val result--------
+	auc===>:0.8892677199548737, micro_f1===>:0.6115702479338844, macro_f1===>:0.43401370559265295
+------epoch-------- 164
+------run val----------- 165
+----------val result--------
+	auc===>:0.8907541527708942, micro_f1===>:0.5950413223140496, macro_f1===>:0.4237027914614121
+------epoch-------- 165
+------run val----------- 166
+----------val result--------
+	auc===>:0.8905972527618349, micro_f1===>:0.628099173553719, macro_f1===>:0.44043247075505143
+------epoch-------- 166
+------run val----------- 167
+----------val result--------
+	auc===>:0.8903515660289161, micro_f1===>:0.588235294117647, macro_f1===>:0.4260606060606061
+------epoch-------- 167
+------run val----------- 168
+----------val result--------
+	auc===>:0.8926860580845337, micro_f1===>:0.5833333333333334, macro_f1===>:0.4113095238095238
+------epoch-------- 168
+------run val----------- 169
+----------val result--------
+	auc===>:0.8871232572536071, micro_f1===>:0.5573770491803278, macro_f1===>:0.3998024198024198
+------epoch-------- 169
+------run val----------- 170
+----------val result--------
+	auc===>:0.8849365221607094, micro_f1===>:0.5691056910569106, macro_f1===>:0.4106349206349207
+------epoch-------- 170
+------run val----------- 171
+----------val result--------
+	auc===>:0.885123695605586, micro_f1===>:0.6000000000000001, macro_f1===>:0.43011904761904757
+------epoch-------- 171
+------run val----------- 172
+----------val result--------
+	auc===>:0.8873224268041543, micro_f1===>:0.5785123966942148, macro_f1===>:0.3948125363914838
+------epoch-------- 172
+------run val----------- 173
+----------val result--------
+	auc===>:0.8917521424259096, micro_f1===>:0.5806451612903226, macro_f1===>:0.4199953314659197
+------epoch-------- 173
+------run val----------- 174
+----------val result--------
+	auc===>:0.8914524858111269, micro_f1===>:0.5833333333333334, macro_f1===>:0.41376580408838476
+------epoch-------- 174
+------run val----------- 175
+----------val result--------
+	auc===>:0.893170570195878, micro_f1===>:0.5619834710743801, macro_f1===>:0.39551120448179267
+------epoch-------- 175
+------run val----------- 176
+----------val result--------
+	auc===>:0.8943385374556634, micro_f1===>:0.5901639344262295, macro_f1===>:0.4170070362362452
+------epoch-------- 176
+------run val----------- 177
+----------val result--------
+	auc===>:0.891810601707058, micro_f1===>:0.6115702479338844, macro_f1===>:0.43401370559265295
+------epoch-------- 177
+------run val----------- 178
+----------val result--------
+	auc===>:0.8914633741391607, micro_f1===>:0.5950413223140496, macro_f1===>:0.42914183855360327
+------epoch-------- 178
+------run val----------- 179
+----------val result--------
+	auc===>:0.8901721246638189, micro_f1===>:0.588235294117647, macro_f1===>:0.4238095238095238
+------epoch-------- 179
+------run val----------- 180
+----------val result--------
+	auc===>:0.8843295577954231, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 180
+------run val----------- 181
+----------val result--------
+	auc===>:0.8866069673347374, micro_f1===>:0.6000000000000001, macro_f1===>:0.41924970615123414
+------epoch-------- 181
+------run val----------- 182
+----------val result--------
+	auc===>:0.8855529584788264, micro_f1===>:0.5901639344262295, macro_f1===>:0.4238897213897214
+------epoch-------- 182
+------run val----------- 183
+----------val result--------
+	auc===>:0.8921682005870657, micro_f1===>:0.5785123966942148, macro_f1===>:0.414914520464056
+------epoch-------- 183
+------run val----------- 184
+----------val result--------
+	auc===>:0.8869643989842674, micro_f1===>:0.5289256198347108, macro_f1===>:0.34290795320207085
+------epoch-------- 184
+------run val----------- 185
+----------val result--------
+	auc===>:0.8871761499935559, micro_f1===>:0.588235294117647, macro_f1===>:0.4238095238095238
+------epoch-------- 185
+------run val----------- 186
+----------val result--------
+	auc===>:0.8888729658960914, micro_f1===>:0.5833333333333334, macro_f1===>:0.4170965309200604
+------epoch-------- 186
+------run val----------- 187
+----------val result--------
+	auc===>:0.8911730355694918, micro_f1===>:0.6115702479338844, macro_f1===>:0.43153701561596297
+------epoch-------- 187
+------run val----------- 188
+----------val result--------
+	auc===>:0.8913712459077582, micro_f1===>:0.6065573770491803, macro_f1===>:0.42951465201465205
+------epoch-------- 188
+------run val----------- 189
+----------val result--------
+	auc===>:0.886844548977081, micro_f1===>:0.6065573770491803, macro_f1===>:0.4365367965367965
+------epoch-------- 189
+------run val----------- 190
+----------val result--------
+	auc===>:0.8824229703675016, micro_f1===>:0.5409836065573771, macro_f1===>:0.37935115566694516
+------epoch-------- 190
+------run val----------- 191
+----------val result--------
+	auc===>:0.8860291339221702, micro_f1===>:0.6115702479338844, macro_f1===>:0.4398160173160173
+------epoch-------- 191
+------run val----------- 192
+----------val result--------
+	auc===>:0.896023710882352, micro_f1===>:0.5737704918032787, macro_f1===>:0.4119803072744249
+------epoch-------- 192
+------run val----------- 193
+----------val result--------
+	auc===>:0.8892377623148908, micro_f1===>:0.6065573770491803, macro_f1===>:0.4258241758241759
+------epoch-------- 193
+------run val----------- 194
+----------val result--------
+	auc===>:0.8870880036238971, micro_f1===>:0.5806451612903226, macro_f1===>:0.4197871572871573
+------epoch-------- 194
+------run val----------- 195
+----------val result--------
+	auc===>:0.8939075512402006, micro_f1===>:0.5785123966942148, macro_f1===>:0.414914520464056
+------epoch-------- 195
+------run val----------- 196
+----------val result--------
+	auc===>:0.8939413818664681, micro_f1===>:0.5901639344262295, macro_f1===>:0.42098739495798315
+------epoch-------- 196
+------run val----------- 197
+----------val result--------
+	auc===>:0.8922672568795622, micro_f1===>:0.5853658536585366, macro_f1===>:0.40777310924369753
+------epoch-------- 197
+------run val----------- 198
+----------val result--------
+	auc===>:0.8873431463488461, micro_f1===>:0.5833333333333334, macro_f1===>:0.4172619047619047
+------epoch-------- 198
+------run val----------- 199
+----------val result--------
+	auc===>:0.8855040975510325, micro_f1===>:0.5950413223140496, macro_f1===>:0.4239285714285714
+------epoch-------- 199
+------run val----------- 200
+----------val result--------
+	auc===>:0.8907164360476848, micro_f1===>:0.6166666666666666, macro_f1===>:0.4356705659931467
+------epoch-------- 200
+------run val----------- 201
+----------val result--------
+	auc===>:0.8889059560881266, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 201
+------run val----------- 202
+----------val result--------
+	auc===>:0.890528257072391, micro_f1===>:0.6000000000000001, macro_f1===>:0.42592266683348273
+------epoch-------- 202
+------run val----------- 203
+----------val result--------
+	auc===>:0.8928939609766917, micro_f1===>:0.588235294117647, macro_f1===>:0.42149683649683645
+------epoch-------- 203
+------run val----------- 204
+----------val result--------
+	auc===>:0.8942783013954273, micro_f1===>:0.5691056910569106, macro_f1===>:0.40424099464347146
+------epoch-------- 204
+------run val----------- 205
+----------val result--------
+	auc===>:0.8852495730949903, micro_f1===>:0.5853658536585366, macro_f1===>:0.4253571428571428
+------epoch-------- 205
+------run val----------- 206
+----------val result--------
+	auc===>:0.8855418402171708, micro_f1===>:0.5901639344262295, macro_f1===>:0.4171235574461381
+------epoch-------- 206
+------run val----------- 207
+----------val result--------
+	auc===>:0.8890151465608438, micro_f1===>:0.5691056910569106, macro_f1===>:0.4106349206349207
+------epoch-------- 207
+------run val----------- 208
+----------val result--------
+	auc===>:0.8905087818338095, micro_f1===>:0.5901639344262295, macro_f1===>:0.42098739495798315
+------epoch-------- 208
+------run val----------- 209
+----------val result--------
+	auc===>:0.8918787811155735, micro_f1===>:0.5666666666666667, macro_f1===>:0.4014194139194139
+------epoch-------- 209
+------run val----------- 210
+----------val result--------
+	auc===>:0.8858621733328593, micro_f1===>:0.5785123966942148, macro_f1===>:0.4112531328320802
+------epoch-------- 210
+------run val----------- 211
+----------val result--------
+	auc===>:0.8890806251739416, micro_f1===>:0.5806451612903226, macro_f1===>:0.4194000933706817
+------epoch-------- 211
+------run val----------- 212
+----------val result--------
+	auc===>:0.892074597121695, micro_f1===>:0.5645161290322581, macro_f1===>:0.4100764921353156
+------epoch-------- 212
+------run val----------- 213
+----------val result--------
+	auc===>:0.8865840162739713, micro_f1===>:0.5645161290322581, macro_f1===>:0.410170515758751
+------epoch-------- 213
+------run val----------- 214
+----------val result--------
+	auc===>:0.8934853192453023, micro_f1===>:0.5645161290322581, macro_f1===>:0.40761904761904766
+------epoch-------- 214
+------run val----------- 215
+----------val result--------
+	auc===>:0.8898697206570961, micro_f1===>:0.6000000000000001, macro_f1===>:0.4245594548820355
+------epoch-------- 215
+------run val----------- 216
+----------val result--------
+	auc===>:0.8933634665156063, micro_f1===>:0.6115702479338844, macro_f1===>:0.4283445586671393
+------epoch-------- 216
+------run val----------- 217
+----------val result--------
+	auc===>:0.8873804934814314, micro_f1===>:0.5833333333333334, macro_f1===>:0.41785569693464425
+------epoch-------- 217
+------run val----------- 218
+----------val result--------
+	auc===>:0.8900772032923685, micro_f1===>:0.5737704918032787, macro_f1===>:0.4165890971773324
+------epoch-------- 218
+------run val----------- 219
+----------val result--------
+	auc===>:0.8864472191049613, micro_f1===>:0.5950413223140496, macro_f1===>:0.42630952380952375
+------epoch-------- 219
+------run val----------- 220
+----------val result--------
+	auc===>:0.8905299903172029, micro_f1===>:0.5833333333333334, macro_f1===>:0.41785569693464425
+------epoch-------- 220
+------run val----------- 221
+----------val result--------
+	auc===>:0.8942713255977537, micro_f1===>:0.6065573770491803, macro_f1===>:0.4246341514273203
+------epoch-------- 221
+------run val----------- 222
+----------val result--------
+	auc===>:0.891640612555895, micro_f1===>:0.5901639344262295, macro_f1===>:0.42159789556848387
+------epoch-------- 222
+------run val----------- 223
+----------val result--------
+	auc===>:0.8860967231390005, micro_f1===>:0.5901639344262295, macro_f1===>:0.4245390720390721
+------epoch-------- 223
+------run val----------- 224
+----------val result--------
+	auc===>:0.8866183743887802, micro_f1===>:0.6000000000000001, macro_f1===>:0.4237756103545577
+------epoch-------- 224
+------run val----------- 225
+----------val result--------
+	auc===>:0.885194954162676, micro_f1===>:0.5573770491803278, macro_f1===>:0.38255146413041147
+------epoch-------- 225
+------run val----------- 226
+----------val result--------
+	auc===>:0.8911026031959196, micro_f1===>:0.5806451612903226, macro_f1===>:0.4194000933706817
+------epoch-------- 226
+------run val----------- 227
+----------val result--------
+	auc===>:0.8876461136896288, micro_f1===>:0.628099173553719, macro_f1===>:0.4412017015242822
+------epoch-------- 227
+------run val----------- 228
+----------val result--------
+	auc===>:0.8899076739421667, micro_f1===>:0.5737704918032787, macro_f1===>:0.41219780219780217
+------epoch-------- 228
+------run val----------- 229
+----------val result--------
+	auc===>:0.8865314287114169, micro_f1===>:0.6000000000000001, macro_f1===>:0.43071283979178715
+------epoch-------- 229
+------run val----------- 230
+----------val result--------
+	auc===>:0.8852676517635476, micro_f1===>:0.6065573770491803, macro_f1===>:0.42859036549189344
+------epoch-------- 230
+------run val----------- 231
+----------val result--------
+	auc===>:0.8875281382943425, micro_f1===>:0.5833333333333334, macro_f1===>:0.41785569693464425
+------epoch-------- 231
+------run val----------- 232
+----------val result--------
+	auc===>:0.8856355020375606, micro_f1===>:0.5950413223140496, macro_f1===>:0.4124654377880185
+------epoch-------- 232
+------run val----------- 233
+----------val result--------
+	auc===>:0.8896535603309104, micro_f1===>:0.5619834710743801, macro_f1===>:0.3931465919701214
+------epoch-------- 233
+------run val----------- 234
+----------val result--------
+	auc===>:0.8916527682032861, micro_f1===>:0.5785123966942148, macro_f1===>:0.4098809523809524
+------epoch-------- 234
+------run val----------- 235
+----------val result--------
+	auc===>:0.8884280589463639, micro_f1===>:0.6115702479338844, macro_f1===>:0.44129870129870125
+------epoch-------- 235
+------run val----------- 236
+----------val result--------
+	auc===>:0.8871244723424386, micro_f1===>:0.5853658536585366, macro_f1===>:0.4121428571428572
+------epoch-------- 236
+------run val----------- 237
+----------val result--------
+	auc===>:0.8882562859636666, micro_f1===>:0.6000000000000001, macro_f1===>:0.4245594548820355
+------epoch-------- 237
+------run val----------- 238
+----------val result--------
+	auc===>:0.8872757359088868, micro_f1===>:0.5619834710743801, macro_f1===>:0.3834099955771782
+------epoch-------- 238
+------run val----------- 239
+----------val result--------
+	auc===>:0.8883224928611874, micro_f1===>:0.5833333333333334, macro_f1===>:0.4203183091418385
+------epoch-------- 239
+------run val----------- 240
+----------val result--------
+	auc===>:0.8899586711912619, micro_f1===>:0.5833333333333334, macro_f1===>:0.4196428571428571
+------epoch-------- 240
+------run val----------- 241
+----------val result--------
+	auc===>:0.884165884918865, micro_f1===>:0.6000000000000001, macro_f1===>:0.41924970615123414
+------epoch-------- 241
+------run val----------- 242
+----------val result--------
+	auc===>:0.889755867920613, micro_f1===>:0.5950413223140496, macro_f1===>:0.42777862660215604
+------epoch-------- 242
+------run val----------- 243
+----------val result--------
+	auc===>:0.8852028799858909, micro_f1===>:0.5737704918032787, macro_f1===>:0.4163927059026877
+------epoch-------- 243
+------run val----------- 244
+----------val result--------
+	auc===>:0.8853400066314208, micro_f1===>:0.5901639344262295, macro_f1===>:0.42661027568922305
+------epoch-------- 244
+------run val----------- 245
+----------val result--------
+	auc===>:0.884081527317082, micro_f1===>:0.6065573770491803, macro_f1===>:0.4284199134199135
+------epoch-------- 245
+------run val----------- 246
+----------val result--------
+	auc===>:0.8852684592819438, micro_f1===>:0.5691056910569106, macro_f1===>:0.4152610693400168
+------epoch-------- 246
+------run val----------- 247
+----------val result--------
+	auc===>:0.8873815005761134, micro_f1===>:0.5785123966942148, macro_f1===>:0.3979727095516569
+------epoch-------- 247
+------run val----------- 248
+----------val result--------
+	auc===>:0.8860559288314809, micro_f1===>:0.6065573770491803, macro_f1===>:0.437396214896215
+------epoch-------- 248
+------run val----------- 249
+----------val result--------
+	auc===>:0.8826336802262149, micro_f1===>:0.5901639344262295, macro_f1===>:0.423174178762414
+------epoch-------- 249
+------run val----------- 250
+----------val result--------
+	auc===>:0.8875081515280199, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 250
+------run val----------- 251
+----------val result--------
+	auc===>:0.8856618117067272, micro_f1===>:0.6050420168067226, macro_f1===>:0.4279324707550513
+------epoch-------- 251
+------run val----------- 252
+----------val result--------
+	auc===>:0.8858832696664434, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 252
+------run val----------- 253
+----------val result--------
+	auc===>:0.8894040160687611, micro_f1===>:0.5901639344262295, macro_f1===>:0.42098739495798315
+------epoch-------- 253
+------run val----------- 254
+----------val result--------
+	auc===>:0.8909017954495122, micro_f1===>:0.5785123966942148, macro_f1===>:0.4162254901960784
+------epoch-------- 254
+------run val----------- 255
+----------val result--------
+	auc===>:0.8883656552132548, micro_f1===>:0.628099173553719, macro_f1===>:0.4412017015242822
+------epoch-------- 255
+------run val----------- 256
+----------val result--------
+	auc===>:0.8831306966966206, micro_f1===>:0.5714285714285715, macro_f1===>:0.40191724941724943
+------epoch-------- 256
+------run val----------- 257
+----------val result--------
+	auc===>:0.889453458849915, micro_f1===>:0.5666666666666667, macro_f1===>:0.3857051282051282
+------epoch-------- 257
+------run val----------- 258
+----------val result--------
+	auc===>:0.8845012384334904, micro_f1===>:0.6016260162601627, macro_f1===>:0.4235714285714286
+------epoch-------- 258
+------run val----------- 259
+----------val result--------
+	auc===>:0.8860645971102944, micro_f1===>:0.6000000000000001, macro_f1===>:0.42630807788702524
+------epoch-------- 259
+------run val----------- 260
+----------val result--------
+	auc===>:0.8849830117696055, micro_f1===>:0.6115702479338844, macro_f1===>:0.43078816768969563
+------epoch-------- 260
+------run val----------- 261
+----------val result--------
+	auc===>:0.8870938501949512, micro_f1===>:0.5853658536585366, macro_f1===>:0.42109195402298855
+------epoch-------- 261
+------run val----------- 262
+----------val result--------
+	auc===>:0.8857310241528534, micro_f1===>:0.5691056910569106, macro_f1===>:0.40649122807017546
+------epoch-------- 262
+------run val----------- 263
+----------val result--------
+	auc===>:0.8838209967482653, micro_f1===>:0.5833333333333334, macro_f1===>:0.4101415251415251
+------epoch-------- 263
+------run val----------- 264
+----------val result--------
+	auc===>:0.8895014033838541, micro_f1===>:0.5619834710743801, macro_f1===>:0.38207282913165264
+------epoch-------- 264
+------run val----------- 265
+----------val result--------
+	auc===>:0.8882792276918717, micro_f1===>:0.5619834710743801, macro_f1===>:0.40511437908496734
+------epoch-------- 265
+------run val----------- 266
+----------val result--------
+	auc===>:0.885632493214605, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 266
+------run val----------- 267
+----------val result--------
+	auc===>:0.8815431691658973, micro_f1===>:0.6000000000000001, macro_f1===>:0.4216856035871316
+------epoch-------- 267
+------run val----------- 268
+----------val result--------
+	auc===>:0.8918383713652425, micro_f1===>:0.5901639344262295, macro_f1===>:0.4124654377880185
+------epoch-------- 268
+------run val----------- 269
+----------val result--------
+	auc===>:0.8890838363570432, micro_f1===>:0.5619834710743801, macro_f1===>:0.3995588235294118
+------epoch-------- 269
+------run val----------- 270
+----------val result--------
+	auc===>:0.890642926659831, micro_f1===>:0.5950413223140496, macro_f1===>:0.4185612769333932
+------epoch-------- 270
+------run val----------- 271
+----------val result--------
+	auc===>:0.8857569675057461, micro_f1===>:0.5806451612903226, macro_f1===>:0.41916666666666663
+------epoch-------- 271
+------run val----------- 272
+----------val result--------
+	auc===>:0.8867465147458308, micro_f1===>:0.5901639344262295, macro_f1===>:0.4195286576168929
+------epoch-------- 272
+------run val----------- 273
+----------val result--------
+	auc===>:0.8852676737825588, micro_f1===>:0.6065573770491803, macro_f1===>:0.4352258268047741
+------epoch-------- 273
+------run val----------- 274
+----------val result--------
+	auc===>:0.8866969833981428, micro_f1===>:0.5901639344262295, macro_f1===>:0.42851503759398496
+------epoch-------- 274
+------run val----------- 275
+----------val result--------
+	auc===>:0.8910922737079991, micro_f1===>:0.5901639344262295, macro_f1===>:0.42098739495798315
+------epoch-------- 275
+------run val----------- 276
+----------val result--------
+	auc===>:0.8836020069460236, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 276
+------run val----------- 277
+----------val result--------
+	auc===>:0.8861693062304097, micro_f1===>:0.6166666666666666, macro_f1===>:0.43797619047619046
+------epoch-------- 277
+------run val----------- 278
+----------val result--------
+	auc===>:0.8871393089005295, micro_f1===>:0.5785123966942148, macro_f1===>:0.3977610693400167
+------epoch-------- 278
+------run val----------- 279
+----------val result--------
+	auc===>:0.8871729388104542, micro_f1===>:0.588235294117647, macro_f1===>:0.4203246753246753
+------epoch-------- 279
+------run val----------- 280
+----------val result--------
+	auc===>:0.88683697422519, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 280
+------run val----------- 281
+----------val result--------
+	auc===>:0.8891453375228048, micro_f1===>:0.5528455284552846, macro_f1===>:0.37961028765982324
+------epoch-------- 281
+------run val----------- 282
+----------val result--------
+	auc===>:0.8841273826962708, micro_f1===>:0.5619834710743801, macro_f1===>:0.3874482775566367
+------epoch-------- 282
+------run val----------- 283
+----------val result--------
+	auc===>:0.8882840906719807, micro_f1===>:0.5573770491803278, macro_f1===>:0.38292461924040866
+------epoch-------- 283
+------run val----------- 284
+----------val result--------
+	auc===>:0.8826220063987961, micro_f1===>:0.5666666666666667, macro_f1===>:0.40915584415584416
+------epoch-------- 284
+------run val----------- 285
+----------val result--------
+	auc===>:0.886191458111105, micro_f1===>:0.5737704918032787, macro_f1===>:0.40341781874039934
+------epoch-------- 285
+------run val----------- 286
+----------val result--------
+	auc===>:0.8850009617575247, micro_f1===>:0.5853658536585366, macro_f1===>:0.4166229469455276
+------epoch-------- 286
+------run val----------- 287
+----------val result--------
+	auc===>:0.8830278302668049, micro_f1===>:0.6000000000000001, macro_f1===>:0.42614163614163614
+------epoch-------- 287
+------run val----------- 288
+----------val result--------
+	auc===>:0.8860156240326914, micro_f1===>:0.5737704918032787, macro_f1===>:0.41565789473684206
+------epoch-------- 288
+------run val----------- 289
+----------val result--------
+	auc===>:0.8845858154962774, micro_f1===>:0.5950413223140496, macro_f1===>:0.42851503759398496
+------epoch-------- 289
+------run val----------- 290
+----------val result--------
+	auc===>:0.8866059315928053, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 290
+------run val----------- 291
+----------val result--------
+	auc===>:0.889673883201992, micro_f1===>:0.588235294117647, macro_f1===>:0.4238095238095238
+------epoch-------- 291
+------run val----------- 292
+----------val result--------
+	auc===>:0.8898758768199521, micro_f1===>:0.588235294117647, macro_f1===>:0.41627496159754224
+------epoch-------- 292
+------run val----------- 293
+----------val result--------
+	auc===>:0.8859172884021428, micro_f1===>:0.6229508196721312, macro_f1===>:0.44043247075505143
+------epoch-------- 293
+------run val----------- 294
+----------val result--------
+	auc===>:0.886230013134254, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 294
+------run val----------- 295
+----------val result--------
+	auc===>:0.8868682933055286, micro_f1===>:0.6016260162601627, macro_f1===>:0.425
+------epoch-------- 295
+------run val----------- 296
+----------val result--------
+	auc===>:0.8853768323336755, micro_f1===>:0.6166666666666666, macro_f1===>:0.4343595962611243
+------epoch-------- 296
+------run val----------- 297
+----------val result--------
+	auc===>:0.8926784905309105, micro_f1===>:0.5737704918032787, macro_f1===>:0.408311956361492
+------epoch-------- 297
+------run val----------- 298
+----------val result--------
+	auc===>:0.8872755164478832, micro_f1===>:0.5833333333333334, macro_f1===>:0.41495837495837495
+------epoch-------- 298
+------run val----------- 299
+----------val result--------
+	auc===>:0.8847549340016931, micro_f1===>:0.6016260162601627, macro_f1===>:0.4238940092165898
+------epoch-------- 299
+------run val----------- 300
+----------val result--------
+	auc===>:0.8809239226068748, micro_f1===>:0.544, macro_f1===>:0.3768312912328192
+------epoch-------- 300
+------run val----------- 301
+----------val result--------
+	auc===>:0.8805569684177919, micro_f1===>:0.5950413223140496, macro_f1===>:0.41132907415165476
+------epoch-------- 301
+------run val----------- 302
+----------val result--------
+	auc===>:0.8819320386738145, micro_f1===>:0.5573770491803278, macro_f1===>:0.38706938647091443
+------epoch-------- 302
+------run val----------- 303
+----------val result--------
+	auc===>:0.8868703967109935, micro_f1===>:0.5599999999999999, macro_f1===>:0.4056327006327006
+------epoch-------- 303
+------run val----------- 304
+----------val result--------
+	auc===>:0.8858994390971786, micro_f1===>:0.5737704918032787, macro_f1===>:0.411508769008769
+------epoch-------- 304
+------run val----------- 305
+----------val result--------
+	auc===>:0.888204822789117, micro_f1===>:0.5737704918032787, macro_f1===>:0.40888888888888886
+------epoch-------- 305
+------run val----------- 306
+----------val result--------
+	auc===>:0.8868676892873362, micro_f1===>:0.6000000000000001, macro_f1===>:0.43487012987012985
+------epoch-------- 306
+------run val----------- 307
+----------val result--------
+	auc===>:0.8869067883298551, micro_f1===>:0.5785123966942148, macro_f1===>:0.40964285714285714
+------epoch-------- 307
+------run val----------- 308
+----------val result--------
+	auc===>:0.886613821570502, micro_f1===>:0.6115702479338844, macro_f1===>:0.43153701561596297
+------epoch-------- 308
+------run val----------- 309
+----------val result--------
+	auc===>:0.8807826353227304, micro_f1===>:0.6115702479338844, macro_f1===>:0.4312094999943297
+------epoch-------- 309
+------run val----------- 310
+----------val result--------
+	auc===>:0.8835720228726223, micro_f1===>:0.5454545454545455, macro_f1===>:0.3666199813258637
+------epoch-------- 310
+------run val----------- 311
+----------val result--------
+	auc===>:0.8895086558574932, micro_f1===>:0.5785123966942148, macro_f1===>:0.4101190476190476
+------epoch-------- 311
+------run val----------- 312
+----------val result--------
+	auc===>:0.8873581787846655, micro_f1===>:0.5833333333333334, macro_f1===>:0.39870573870573867
+------epoch-------- 312
+------run val----------- 313
+----------val result--------
+	auc===>:0.8858276744209908, micro_f1===>:0.5833333333333334, macro_f1===>:0.4117023120248927
+------epoch-------- 313
+------run val----------- 314
+----------val result--------
+	auc===>:0.8879548703865036, micro_f1===>:0.6000000000000001, macro_f1===>:0.4268650793650794
+------epoch-------- 314
+------run val----------- 315
+----------val result--------
+	auc===>:0.8856145432266856, micro_f1===>:0.5666666666666667, macro_f1===>:0.38130952380952376
+------epoch-------- 315
+------run val----------- 316
+----------val result--------
+	auc===>:0.8883332789420015, micro_f1===>:0.5806451612903226, macro_f1===>:0.4194000933706817
+------epoch-------- 316
+------run val----------- 317
+----------val result--------
+	auc===>:0.8826433106469912, micro_f1===>:0.5573770491803278, macro_f1===>:0.38700367732625796
+------epoch-------- 317
+------run val----------- 318
+----------val result--------
+	auc===>:0.8836428705849265, micro_f1===>:0.5853658536585366, macro_f1===>:0.42811821219715956
+------epoch-------- 318
+------run val----------- 319
+----------val result--------
+	auc===>:0.8887812701042783, micro_f1===>:0.5853658536585366, macro_f1===>:0.40952426131743025
+------epoch-------- 319
+------run val----------- 320
+----------val result--------
+	auc===>:0.8852994488857625, micro_f1===>:0.6016260162601627, macro_f1===>:0.4261467564693371
+------epoch-------- 320
+------run val----------- 321
+----------val result--------
+	auc===>:0.8872642986433293, micro_f1===>:0.5833333333333334, macro_f1===>:0.4203183091418385
+------epoch-------- 321
+------run val----------- 322
+----------val result--------
+	auc===>:0.880500516207278, micro_f1===>:0.5785123966942148, macro_f1===>:0.4091783216783217
+------epoch-------- 322
+------run val----------- 323
+----------val result--------
+	auc===>:0.8879700607202399, micro_f1===>:0.5714285714285714, macro_f1===>:0.41572182719241546
+------epoch-------- 323
+------run val----------- 324
+----------val result--------
+	auc===>:0.8861432561363511, micro_f1===>:0.5853658536585366, macro_f1===>:0.42494360902255635
+------epoch-------- 324
+------run val----------- 325
+----------val result--------
+	auc===>:0.8843801233207786, micro_f1===>:0.5806451612903226, macro_f1===>:0.42303884711779444
+------epoch-------- 325
+------run val----------- 326
+----------val result--------
+	auc===>:0.8862267259915295, micro_f1===>:0.5901639344262295, macro_f1===>:0.42098739495798315
+------epoch-------- 326
+------run val----------- 327
+----------val result--------
+	auc===>:0.883387479751723, micro_f1===>:0.5737704918032787, macro_f1===>:0.41469780219780217
+------epoch-------- 327
+------run val----------- 328
+----------val result--------
+	auc===>:0.8834363307769275, micro_f1===>:0.5645161290322581, macro_f1===>:0.40845238095238096
+------epoch-------- 328
+------run val----------- 329
+----------val result--------
+	auc===>:0.8853971964589187, micro_f1===>:0.5666666666666667, macro_f1===>:0.4094187675070028
+------epoch-------- 329
+------run val----------- 330
+----------val result--------
+	auc===>:0.8832990088236977, micro_f1===>:0.5785123966942148, macro_f1===>:0.41269841269841273
+------epoch-------- 330
+------run val----------- 331
+----------val result--------
+	auc===>:0.8799520392666441, micro_f1===>:0.5528455284552846, macro_f1===>:0.3803104575163399
+------epoch-------- 331
+------run val----------- 332
+----------val result--------
+	auc===>:0.8896750053761648, micro_f1===>:0.5967741935483871, macro_f1===>:0.4290756302521008
+------epoch-------- 332
+------run val----------- 333
+----------val result--------
+	auc===>:0.8892421952150634, micro_f1===>:0.5737704918032787, macro_f1===>:0.4152610693400168
+------epoch-------- 333
+------run val----------- 334
+----------val result--------
+	auc===>:0.88413293327667, micro_f1===>:0.5950413223140496, macro_f1===>:0.4301875901875902
+------epoch-------- 334
+------run val----------- 335
+----------val result--------
+	auc===>:0.8883298625486106, micro_f1===>:0.5833333333333334, macro_f1===>:0.41928189457601217
+------epoch-------- 335
+------run val----------- 336
+----------val result--------
+	auc===>:0.8850866158164052, micro_f1===>:0.5785123966942148, macro_f1===>:0.41352770885028944
+------epoch-------- 336
+------run val----------- 337
+----------val result--------
+	auc===>:0.8848941040538655, micro_f1===>:0.5901639344262295, macro_f1===>:0.42273664931559657
+------epoch-------- 337
+------run val----------- 338
+----------val result--------
+	auc===>:0.8868550462655082, micro_f1===>:0.5950413223140496, macro_f1===>:0.4245594548820355
+------epoch-------- 338
+------run val----------- 339
+----------val result--------
+	auc===>:0.8844629655744892, micro_f1===>:0.6016260162601627, macro_f1===>:0.4351984126984128
+------epoch-------- 339
+------run val----------- 340
+----------val result--------
+	auc===>:0.8848941040538655, micro_f1===>:0.5833333333333334, macro_f1===>:0.41246543778801836
+------epoch-------- 340
+------run val----------- 341
+----------val result--------
+	auc===>:0.8893857339, micro_f1===>:0.5737704918032787, macro_f1===>:0.40419476109628916
+------epoch-------- 341
+------run val----------- 342
+----------val result--------
+	auc===>:0.884550648298808, micro_f1===>:0.5853658536585366, macro_f1===>:0.4074798678024484
+------epoch-------- 342
+------run val----------- 343
+----------val result--------
+	auc===>:0.8836264343808151, micro_f1===>:0.5950413223140496, macro_f1===>:0.4224985540775014
+------epoch-------- 343
+------run val----------- 344
+----------val result--------
+	auc===>:0.8899050529507502, micro_f1===>:0.5483870967741935, macro_f1===>:0.3949587014292897
+------epoch-------- 344
+------run val----------- 345
+----------val result--------
+	auc===>:0.8868840259485495, micro_f1===>:0.5785123966942148, macro_f1===>:0.4109432234432234
+------epoch-------- 345
+------run val----------- 346
+----------val result--------
+	auc===>:0.8858092349243414, micro_f1===>:0.5666666666666667, macro_f1===>:0.39700534759358286
+------epoch-------- 346
+------run val----------- 347
+----------val result--------
+	auc===>:0.8875380503092378, micro_f1===>:0.5833333333333334, macro_f1===>:0.4172247360482655
+------epoch-------- 347
+------run val----------- 348
+----------val result--------
+	auc===>:0.8865164342554088, micro_f1===>:0.5785123966942148, macro_f1===>:0.4117023120248927
+------epoch-------- 348
+------run val----------- 349
+----------val result--------
+	auc===>:0.8878771876735853, micro_f1===>:0.5853658536585366, macro_f1===>:0.4237698412698413
+------epoch-------- 349
+------run val----------- 350
+----------val result--------
+	auc===>:0.8932121643993185, micro_f1===>:0.5714285714285714, macro_f1===>:0.41572182719241546
+------epoch-------- 350
+------run val----------- 351
+----------val result--------
+	auc===>:0.8856659228986764, micro_f1===>:0.6065573770491803, macro_f1===>:0.426091811414392
+------epoch-------- 351
+------run val----------- 352
+----------val result--------
+	auc===>:0.8838594704031483, micro_f1===>:0.5666666666666667, macro_f1===>:0.3972875816993464
+------epoch-------- 352
+------run val----------- 353
+----------val result--------
+	auc===>:0.8816059409253663, micro_f1===>:0.5833333333333334, macro_f1===>:0.4877599524658348
+---------save best----------
+	 f1 0.5829499433837625
+------epoch-------- 353
+------run val----------- 354
+----------val result--------
+	auc===>:0.8858116056732108, micro_f1===>:0.5573770491803278, macro_f1===>:0.3856532262027618
+------epoch-------- 354
+------run val----------- 355
+----------val result--------
+	auc===>:0.8867490334900274, micro_f1===>:0.5785123966942148, macro_f1===>:0.39285714285714285
+------epoch-------- 355
+------run val----------- 356
+----------val result--------
+	auc===>:0.8820084468691075, micro_f1===>:0.5645161290322581, macro_f1===>:0.4136630036630037
+------epoch-------- 356
+------run val----------- 357
+----------val result--------
+	auc===>:0.8840281521208496, micro_f1===>:0.6229508196721312, macro_f1===>:0.443507326007326
+------epoch-------- 357
+------run val----------- 358
+----------val result--------
+	auc===>:0.8839915046254372, micro_f1===>:0.55, macro_f1===>:0.3861111111111111
+------epoch-------- 358
+------run val----------- 359
+----------val result--------
+	auc===>:0.8884130837255064, micro_f1===>:0.5666666666666667, macro_f1===>:0.40130081809398704
+------epoch-------- 359
+------run val----------- 360
+----------val result--------
+	auc===>:0.8849176811518353, micro_f1===>:0.6178861788617885, macro_f1===>:0.43900389932648
+------epoch-------- 360
+------run val----------- 361
+----------val result--------
+	auc===>:0.8882939004396564, micro_f1===>:0.5967741935483871, macro_f1===>:0.4290756302521008
+------epoch-------- 361
+------run val----------- 362
+----------val result--------
+	auc===>:0.880106167584638, micro_f1===>:0.5645161290322581, macro_f1===>:0.4127388134741077
+------epoch-------- 362
+------run val----------- 363
+----------val result--------
+	auc===>:0.8838874209724968, micro_f1===>:0.6065573770491803, macro_f1===>:0.437396214896215
+------epoch-------- 363
+------run val----------- 364
+----------val result--------
+	auc===>:0.8868443873010676, micro_f1===>:0.5806451612903226, macro_f1===>:0.42210317460317465
+------epoch-------- 364
+------run val----------- 365
+----------val result--------
+	auc===>:0.8831257501344141, micro_f1===>:0.6115702479338844, macro_f1===>:0.4343595962611243
+------epoch-------- 365
+------run val----------- 366
+----------val result--------
+	auc===>:0.8824899573557641, micro_f1===>:0.5806451612903226, macro_f1===>:0.41966583124477863
+------epoch-------- 366
+------run val----------- 367
+----------val result--------
+	auc===>:0.8841806577795763, micro_f1===>:0.5950413223140496, macro_f1===>:0.4122843822843823
+------epoch-------- 367
+------run val----------- 368
+----------val result--------
+	auc===>:0.8848971029742314, micro_f1===>:0.5833333333333334, macro_f1===>:0.4117023120248927
+------epoch-------- 368
+------run val----------- 369
+----------val result--------
+	auc===>:0.8831475873593325, micro_f1===>:0.5573770491803278, macro_f1===>:0.39815018315018313
+------epoch-------- 369
+------run val----------- 370
+----------val result--------
+	auc===>:0.8836137501048256, micro_f1===>:0.6115702479338844, macro_f1===>:0.43541125541125536
+------epoch-------- 370
+------run val----------- 371
+----------val result--------
+	auc===>:0.8822216374922063, micro_f1===>:0.5806451612903226, macro_f1===>:0.4147619047619047
+------epoch-------- 371
+------run val----------- 372
+----------val result--------
+	auc===>:0.8862032254232111, micro_f1===>:0.55, macro_f1===>:0.3959332238642584
+------epoch-------- 372
+------run val----------- 373
+----------val result--------
+	auc===>:0.8819211982281814, micro_f1===>:0.5691056910569106, macro_f1===>:0.4093284493284493/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+
+------epoch-------- 373
+------run val----------- 374
+----------val result--------
+	auc===>:0.8834860920582372, micro_f1===>:0.5737704918032787, macro_f1===>:0.3948125363914838
+------epoch-------- 374
+------run val----------- 375
+----------val result--------
+	auc===>:0.8870436812636671, micro_f1===>:0.5714285714285714, macro_f1===>:0.4167582417582418
+------epoch-------- 375
+------run val----------- 376
+----------val result--------
+	auc===>:0.8833037883012477, micro_f1===>:0.5691056910569106, macro_f1===>:0.4089538239538239
+------epoch-------- 376
+------run val----------- 377
+----------val result--------
+	auc===>:0.8833208454785877, micro_f1===>:0.5833333333333334, macro_f1===>:0.4227272727272727
+------epoch-------- 377
+------run val----------- 378
+----------val result--------
+	auc===>:0.884313866406564, micro_f1===>:0.5950413223140496, macro_f1===>:0.42098802631060683
+------epoch-------- 378
+------run val----------- 379
+----------val result--------
+	auc===>:0.8855179007268447, micro_f1===>:0.5950413223140496, macro_f1===>:0.4267027417027417
+------epoch-------- 379
+------run val----------- 380
+----------val result--------
+	auc===>:0.8862754862363683, micro_f1===>:0.5666666666666667, macro_f1===>:0.4050000000000001
+------epoch-------- 380
+------run val----------- 381
+----------val result--------
+	auc===>:0.8832141836526567, micro_f1===>:0.6016260162601627, macro_f1===>:0.43422161172161167
+------epoch-------- 381
+------run val----------- 382
+----------val result--------
+	auc===>:0.8861589552935069, micro_f1===>:0.5785123966942148, macro_f1===>:0.4109432234432234
+------epoch-------- 382
+------run val----------- 383
+----------val result--------
+	auc===>:0.8868272816712984, micro_f1===>:0.5833333333333334, macro_f1===>:0.41352770885028944
+------epoch-------- 383
+------run val----------- 384
+----------val result--------
+	auc===>:0.8871337968699704, micro_f1===>:0.5901639344262295, macro_f1===>:0.418403540903541
+------epoch-------- 384
+------run val----------- 385
+----------val result--------
+	auc===>:0.8832809774675126, micro_f1===>:0.5833333333333334, macro_f1===>:0.4227272727272727
+------epoch-------- 385
+------run val----------- 386
+----------val result--------
+	auc===>:0.8867134295048438, micro_f1===>:0.6016260162601627, macro_f1===>:0.4261467564693371
+------epoch-------- 386
+------run val----------- 387
+----------val result--------
+	auc===>:0.8897568827835911, micro_f1===>:0.5691056910569106, macro_f1===>:0.4132026143790849
+------epoch-------- 387
+------run val----------- 388
+----------val result--------
+	auc===>:0.8835559321058313, micro_f1===>:0.6065573770491803, macro_f1===>:0.43078816768969563
+------epoch-------- 388
+------run val----------- 389
+----------val result--------
+	auc===>:0.8819659166124543, micro_f1===>:0.5691056910569106, macro_f1===>:0.40314309346567406
+------epoch-------- 389
+------run val----------- 390
+----------val result--------
+	auc===>:0.8804530689503656, micro_f1===>:0.5785123966942148, macro_f1===>:0.3972970888760362
+------epoch-------- 390
+------run val----------- 391
+----------val result--------
+	auc===>:0.8821798882409917, micro_f1===>:0.5806451612903226, macro_f1===>:0.4218413681261978
+------epoch-------- 391
+------run val----------- 392
+----------val result--------
+	auc===>:0.878518735672895, micro_f1===>:0.5666666666666667, macro_f1===>:0.3855088702147526
+------epoch-------- 392
+------run val----------- 393
+----------val result--------
+	auc===>:0.8847531935586135, micro_f1===>:0.5833333333333334, macro_f1===>:0.41345238095238096
+------epoch-------- 393
+------run val----------- 394
+----------val result--------
+	auc===>:0.8860103028158856, micro_f1===>:0.6115702479338844, macro_f1===>:0.4343595962611243
+------epoch-------- 394
+------run val----------- 395
+----------val result--------
+	auc===>:0.8834477378309702, micro_f1===>:0.5619834710743801, macro_f1===>:0.39450980392156865
+------epoch-------- 395
+------run val----------- 396
+----------val result--------
+	auc===>:0.8867045438993195, micro_f1===>:0.5737704918032787, macro_f1===>:0.41050975855929417
+------epoch-------- 396
+------run val----------- 397
+----------val result--------
+	auc===>:0.8862386886113354, micro_f1===>:0.5666666666666667, macro_f1===>:0.40365079365079365
+------epoch-------- 397
+------run val----------- 398
+----------val result--------
+	auc===>:0.8839675651351111, micro_f1===>:0.6016260162601627, macro_f1===>:0.43579365079365084
+------epoch-------- 398
+------run val----------- 399
+----------val result--------
+	auc===>:0.8859763962299955, micro_f1===>:0.5666666666666667, macro_f1===>:0.4074611662846957
+------epoch-------- 399
+------run val----------- 400
+----------val result--------
+	auc===>:0.886896785614133, micro_f1===>:0.5666666666666667, macro_f1===>:0.3992114695340502
