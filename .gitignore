@@ -1,4 +1,4 @@
 Dataset
 models
-WXC_Instance/*.txt
-Multi_Instance/*.pkl
+*.txt
+*.pkl
