@@ -1,0 +1,1754 @@
+nohup: ignoring input
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Transformer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type EncoderLayer. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type _MultiHeadAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+------load model--------
+------epoch-------- 0
+------run val----------- 1
+----------val result--------
+	auc===>:0.885990839044158, micro_f1===>:0.5625, macro_f1===>:0.3984925152856842
+---------save best----------
+	 f1 0.4914115103349119
+------epoch-------- 1
+------run val----------- 2
+----------val result--------
+	auc===>:0.8884374319263252, micro_f1===>:0.5692307692307692, macro_f1===>:0.4027292495945747
+---------save best----------
+	 f1 0.5056211629326176
+------epoch-------- 2
+------run val----------- 3
+----------val result--------
+	auc===>:0.8847123998211224, micro_f1===>:0.5984251968503937, macro_f1===>:0.5179273504273505
+---------save best----------
+	 loss 0.22145040333271027
+---------save best----------
+	 f1 0.572340039549445
+------epoch-------- 3
+------run val----------- 4
+----------val result--------
+	auc===>:0.885189362898144, micro_f1===>:0.5625, macro_f1===>:0.39900326797385627
+---------save best----------
+	 loss 0.21935048699378967
+------epoch-------- 4
+------run val----------- 5
+----------val result--------
+	auc===>:0.8849224534311173, micro_f1===>:0.5873015873015873, macro_f1===>:0.4210852451641925
+------epoch-------- 5
+------run val----------- 6
+----------val result--------
+	auc===>:0.8825274859695418, micro_f1===>:0.5937499999999999, macro_f1===>:0.5123693642708923
+---------save best----------
+	 loss 0.2191704362630844
+------epoch-------- 6
+------run val----------- 7
+----------val result--------
+	auc===>:0.8869409077485099, micro_f1===>:0.5625, macro_f1===>:0.4930905695611578
+------epoch-------- 7
+------run val----------- 8
+----------val result--------
+	auc===>:0.8866750460602979, micro_f1===>:0.5826771653543307, macro_f1===>:0.41236936427089227
+------epoch-------- 8
+------run val----------- 9
+----------val result--------
+	auc===>:0.8855728611725615, micro_f1===>:0.576, macro_f1===>:0.4126262626262626
+------epoch-------- 9
+------run val----------- 10
+----------val result--------
+	auc===>:0.8853243625549337, micro_f1===>:0.5891472868217055, macro_f1===>:0.5140381256170731
+------epoch-------- 10
+------run val----------- 11
+----------val result--------
+	auc===>:0.887561416708736, micro_f1===>:0.5984251968503937, macro_f1===>:0.5166896407685881
+------epoch-------- 11
+------run val----------- 12
+----------val result--------
+	auc===>:0.8840556653324552, micro_f1===>:0.5801526717557252, macro_f1===>:0.4177777777777777
+------epoch-------- 12
+------run val----------- 13
+----------val result--------
+	auc===>:0.8858565534210768, micro_f1===>:0.578125, macro_f1===>:0.40903603093755886
+------epoch-------- 13
+------run val----------- 14
+----------val result--------
+	auc===>:0.8838256177578698, micro_f1===>:0.5625, macro_f1===>:0.40846491228070175
+------epoch-------- 14
+------run val----------- 15
+----------val result--------
+	auc===>:0.8881272286427325, micro_f1===>:0.5648854961832062, macro_f1===>:0.4049299719887955
+------epoch-------- 15
+------run val----------- 16
+----------val result--------
+	auc===>:0.8850347616022491, micro_f1===>:0.5692307692307692, macro_f1===>:0.40413210445468517
+------epoch-------- 16
+------run val----------- 17
+----------val result--------
+	auc===>:0.8853358311720634, micro_f1===>:0.5384615384615384, macro_f1===>:0.38428871255246966
+------epoch-------- 17
+------run val----------- 18
+----------val result--------
+	auc===>:0.8893982481616511, micro_f1===>:0.5648854961832062, macro_f1===>:0.3991578210231461
+------epoch-------- 18
+------run val----------- 19
+----------val result--------
+	auc===>:0.8847279102988178, micro_f1===>:0.5846153846153845, macro_f1===>:0.41495837495837495
+------epoch-------- 19
+------run val----------- 20
+----------val result--------
+	auc===>:0.8871889866792806, micro_f1===>:0.5625, macro_f1===>:0.39861111111111114
+------epoch-------- 20
+------run val----------- 21
+----------val result--------
+	auc===>:0.884491326418595, micro_f1===>:0.5757575757575757, macro_f1===>:0.41412698412698407
+------epoch-------- 21
+------run val----------- 22
+----------val result--------
+	auc===>:0.8863414329887525, micro_f1===>:0.5891472868217055, macro_f1===>:0.4213543266769073
+------epoch-------- 22
+------run val----------- 23
+----------val result--------
+	auc===>:0.8935210117970198, micro_f1===>:0.5625, macro_f1===>:0.4095986761776236
+------epoch-------- 23
+------run val----------- 24
+----------val result--------
+	auc===>:0.8864226728921212, micro_f1===>:0.578125, macro_f1===>:0.415100396679344
+------epoch-------- 24
+------run val----------- 25
+----------val result--------
+	auc===>:0.8837070533109553, micro_f1===>:0.5873015873015873, macro_f1===>:0.4184337300126774
+------epoch-------- 25
+------run val----------- 26
+----------val result--------
+	auc===>:0.8834480980890336, micro_f1===>:0.5599999999999999, macro_f1===>:0.4016339869281046
+------epoch-------- 26
+------run val----------- 27
+----------val result--------
+	auc===>:0.8879003994495168, micro_f1===>:0.5396825396825397, macro_f1===>:0.3809827264239029
+------epoch-------- 27
+------run val----------- 28
+----------val result--------
+	auc===>:0.8866689366397853, micro_f1===>:0.5736434108527132, macro_f1===>:0.4092114695340502
+------epoch-------- 28
+------run val----------- 29
+----------val result--------
+	auc===>:0.8837536269924389, micro_f1===>:0.5891472868217055, macro_f1===>:0.42744360902255635
+------epoch-------- 29
+------run val----------- 30
+----------val result--------
+	auc===>:0.8867868580944602, micro_f1===>:0.5864661654135339, macro_f1===>:0.42115591397849467
+------epoch-------- 30
+------run val----------- 31
+----------val result--------
+	auc===>:0.8835163154773603, micro_f1===>:0.5873015873015873, macro_f1===>:0.4247740563530037
+------epoch-------- 31
+------run val----------- 32
+----------val result--------
+	auc===>:0.8835068110329004, micro_f1===>:0.5864661654135339, macro_f1===>:0.5155137582723789
+------epoch-------- 32
+------run val----------- 33
+----------val result--------
+	auc===>:0.8817656369246167, micro_f1===>:0.556390977443609, macro_f1===>:0.4072222222222222
+------epoch-------- 33
+------run val----------- 34
+----------val result--------
+	auc===>:0.8886201895718864, micro_f1===>:0.5757575757575757, macro_f1===>:0.4085858859672902
+------epoch-------- 34
+------run val----------- 35
+----------val result--------
+	auc===>:0.8821499421474016, micro_f1===>:0.5757575757575757, macro_f1===>:0.41229227761485826
+------epoch-------- 35
+------run val----------- 36
+----------val result--------
+	auc===>:0.8826273232674771, micro_f1===>:0.5692307692307692, macro_f1===>:0.41491548343475326
+------epoch-------- 36
+------run val----------- 37
+----------val result--------
+	auc===>:0.8835735387907233, micro_f1===>:0.5468749999999999, macro_f1===>:0.38955882352941174
+------epoch-------- 37
+------run val----------- 38
+----------val result--------
+	auc===>:0.8816066857406184, micro_f1===>:0.5692307692307692, macro_f1===>:0.41484084542908073
+------epoch-------- 38
+------run val----------- 39
+----------val result--------
+	auc===>:0.8810344502208224, micro_f1===>:0.5714285714285714, macro_f1===>:0.5113559969442323
+------epoch-------- 39
+------run val----------- 40
+----------val result--------
+	auc===>:0.886409731745345, micro_f1===>:0.5736434108527132, macro_f1===>:0.4080860805860806
+------epoch-------- 40
+------run val----------- 41
+----------val result--------
+	auc===>:0.8864101326875413, micro_f1===>:0.5954198473282444, macro_f1===>:0.42448924731182797
+------epoch-------- 41
+------run val----------- 42
+----------val result--------
+	auc===>:0.884591802864391, micro_f1===>:0.5692307692307692, macro_f1===>:0.411203007518797
+------epoch-------- 42
+------run val----------- 43
+----------val result--------
+	auc===>:0.8858090941272818, micro_f1===>:0.5891472868217055, macro_f1===>:0.5140381256170731
+------epoch-------- 43
+------run val----------- 44
+----------val result--------
+	auc===>:0.8869605722365803, micro_f1===>:0.5648854961832062, macro_f1===>:0.39785759465076354
+------epoch-------- 44
+------run val----------- 45
+----------val result--------
+	auc===>:0.8838526354025344, micro_f1===>:0.5736434108527132, macro_f1===>:0.40773305813553484
+------epoch-------- 45
+------run val----------- 46
+----------val result--------
+	auc===>:0.8836173645897768, micro_f1===>:0.5873015873015873, macro_f1===>:0.41927849927849936
+------epoch-------- 46
+------run val----------- 47
+----------val result--------
+	auc===>:0.8856672600399067, micro_f1===>:0.5846153846153845, macro_f1===>:0.4208333333333333
+------epoch-------- 47
+------run val----------- 48
+----------val result--------
+	auc===>:0.8856848425714949, micro_f1===>:0.5736434108527132, macro_f1===>:0.41497862302815863
+------epoch-------- 48
+------run val----------- 49
+----------val result--------
+	auc===>:0.8843916376860159, micro_f1===>:0.5801526717557252, macro_f1===>:0.4132987711213518
+------epoch-------- 49
+------run val----------- 50
+----------val result--------
+	auc===>:0.88527331022517, micro_f1===>:0.5384615384615384, macro_f1===>:0.3937394957983193
+------epoch-------- 50
+------run val----------- 51
+----------val result--------
+	auc===>:0.8869559407543578, micro_f1===>:0.5909090909090909, macro_f1===>:0.41870300751879697
+------epoch-------- 51
+------run val----------- 52
+----------val result--------
+	auc===>:0.8854227048137217, micro_f1===>:0.5669291338582677, macro_f1===>:0.4979390544096427
+------epoch-------- 52
+------run val----------- 53
+----------val result--------
+	auc===>:0.8850213545300184, micro_f1===>:0.5984251968503937, macro_f1===>:0.5210852451641925
+------epoch-------- 53
+------run val----------- 54
+----------val result--------
+	auc===>:0.881584252265804, micro_f1===>:0.5801526717557252, macro_f1===>:0.41878173212858805
+------epoch-------- 54
+------run val----------- 55
+----------val result--------
+	auc===>:0.8863765215222775, micro_f1===>:0.5736434108527132, macro_f1===>:0.41761904761904767
+------epoch-------- 55
+------run val----------- 56
+----------val result--------
+	auc===>:0.8857207353490658, micro_f1===>:0.5511811023622047, macro_f1===>:0.39290849673202616
+------epoch-------- 56
+------run val----------- 57
+----------val result--------
+	auc===>:0.8873876838219552, micro_f1===>:0.5757575757575757, macro_f1===>:0.4088940092165899
+------epoch-------- 57
+------run val----------- 58
+----------val result--------
+	auc===>:0.8848645187883675, micro_f1===>:0.5581395348837209, macro_f1===>:0.4011111111111111
+------epoch-------- 58
+------run val----------- 59
+----------val result--------
+	auc===>:0.8829748709793332, micro_f1===>:0.6031746031746033, macro_f1===>:0.428975468975469
+------epoch-------- 59
+------run val----------- 60
+----------val result--------
+	auc===>:0.8855764970269563, micro_f1===>:0.5806451612903226, macro_f1===>:0.503531746031746
+------epoch-------- 60
+------run val----------- 61
+----------val result--------
+	auc===>:0.885003335210716, micro_f1===>:0.5625, macro_f1===>:0.3984477124183007
+------epoch-------- 61
+------run val----------- 62
+----------val result--------
+	auc===>:0.8784852730729872, micro_f1===>:0.5757575757575757, macro_f1===>:0.5034927817280759
+------epoch-------- 62
+------run val----------- 63
+----------val result--------
+	auc===>:0.8845444321371296, micro_f1===>:0.5937499999999999, macro_f1===>:0.4234684759684759
+------epoch-------- 63
+------run val----------- 64
+----------val result--------
+	auc===>:0.887529737370334, micro_f1===>:0.576, macro_f1===>:0.4119098822324629
+------epoch-------- 64
+------run val----------- 65
+----------val result--------
+	auc===>:0.8854679826081364, micro_f1===>:0.5864661654135339, macro_f1===>:0.4181003584229391
+------epoch-------- 65
+------run val----------- 66
+----------val result--------
+	auc===>:0.8879094258521005, micro_f1===>:0.544, macro_f1===>:0.3949953314659197
+------epoch-------- 66
+------run val----------- 67
+----------val result--------
+	auc===>:0.8860059413813893, micro_f1===>:0.5909090909090909, macro_f1===>:0.4228225806451613
+------epoch-------- 67
+------run val----------- 68
+----------val result--------
+	auc===>:0.8804997285736, micro_f1===>:0.5954198473282444, macro_f1===>:0.5218300653594772
+------epoch-------- 68
+------run val----------- 69
+----------val result--------
+	auc===>:0.8855969777959551, micro_f1===>:0.5801526717557252, macro_f1===>:0.4145915864931145
+------epoch-------- 69
+------run val----------- 70
+----------val result--------
+	auc===>:0.8845695987531699, micro_f1===>:0.5555555555555556, macro_f1===>:0.3934477124183006
+------epoch-------- 70
+------run val----------- 71
+----------val result--------
+	auc===>:0.8839435057266793, micro_f1===>:0.5937499999999999, macro_f1===>:0.4245940170940171
+------epoch-------- 71
+------run val----------- 72
+----------val result--------
+	auc===>:0.8884874078300239, micro_f1===>:0.5625, macro_f1===>:0.410308293357829
+------epoch-------- 72
+------run val----------- 73
+----------val result--------
+	auc===>:0.8894967196711058, micro_f1===>:0.5606060606060606, macro_f1===>:0.39620812784649795
+------epoch-------- 73
+------run val----------- 74
+----------val result--------
+	auc===>:0.877405014970939, micro_f1===>:0.5511811023622047, macro_f1===>:0.3970588235294118
+------epoch-------- 74
+------run val----------- 75
+----------val result--------
+	auc===>:0.8851198568210163, micro_f1===>:0.5891472868217055, macro_f1===>:0.4229273504273504
+------epoch-------- 75
+------run val----------- 76
+----------val result--------
+	auc===>:0.8856415746978576, micro_f1===>:0.5826771653543307, macro_f1===>:0.4166896407685881
+------epoch-------- 76
+------run val----------- 77
+----------val result--------
+	auc===>:0.8833338823901654, micro_f1===>:0.5891472868217055, macro_f1===>:0.4201351426351426
+------epoch-------- 77
+------run val----------- 78
+----------val result--------
+	auc===>:0.8862900297334863, micro_f1===>:0.5826771653543307, macro_f1===>:0.41775191183085914
+------epoch-------- 78
+------run val----------- 79
+----------val result--------
+	auc===>:0.8793929808854569, micro_f1===>:0.5671641791044776, macro_f1===>:0.500910815939279
+------epoch-------- 79
+------run val----------- 80
+----------val result--------
+	auc===>:0.8819562053934409, micro_f1===>:0.5757575757575757, macro_f1===>:0.5041666666666667
+------epoch-------- 80
+------run val----------- 81
+----------val result--------
+	auc===>:0.8804204534129294, micro_f1===>:0.5801526717557252, macro_f1===>:0.50890756302521
+------epoch-------- 81
+------run val----------- 82
+----------val result--------
+	auc===>:0.8862371726932341, micro_f1===>:0.5669291338582677, macro_f1===>:0.41138055443009003
+------epoch-------- 82
+------run val----------- 83
+----------val result--------
+	auc===>:0.8883225500761492, micro_f1===>:0.5581395348837209, macro_f1===>:0.40864162669116233
+------epoch-------- 83
+------run val----------- 84
+----------val result--------
+	auc===>:0.8851050124946289, micro_f1===>:0.5937499999999999, macro_f1===>:0.4245940170940171
+------epoch-------- 84
+------run val----------- 85
+----------val result--------
+	auc===>:0.8805023902491496, micro_f1===>:0.5714285714285714, macro_f1===>:0.5024177571236395
+------epoch-------- 85
+------run val----------- 86
+----------val result--------
+	auc===>:0.8859777285326109, micro_f1===>:0.609375, macro_f1===>:0.5264987789987791
+------epoch-------- 86
+------run val----------- 87
+----------val result--------
+	auc===>:0.883775938984883, micro_f1===>:0.5581395348837209, macro_f1===>:0.4058935998641881
+------epoch-------- 87
+------run val----------- 88
+----------val result--------
+	auc===>:0.8830330184548476, micro_f1===>:0.5714285714285714, macro_f1===>:0.40833584715937654
+------epoch-------- 88
+------run val----------- 89
+----------val result--------
+	auc===>:0.8789450904061352, micro_f1===>:0.5801526717557252, macro_f1===>:0.5082072829131653
+------epoch-------- 89
+------run val----------- 90
+----------val result--------
+	auc===>:0.8834959326074563, micro_f1===>:0.5801526717557252, macro_f1===>:0.5125678733031674
+------epoch-------- 90
+------run val----------- 91
+----------val result--------
+	auc===>:0.889332628751494, micro_f1===>:0.5648854961832062, macro_f1===>:0.4097405277900634
+------epoch-------- 91
+------run val----------- 92
+----------val result--------
+	auc===>:0.8864955166986956, micro_f1===>:0.5396825396825397, macro_f1===>:0.3868332596196373
+------epoch-------- 92
+------run val----------- 93
+----------val result--------
+	auc===>:0.8858184213591354, micro_f1===>:0.5581395348837209, macro_f1===>:0.39849251528568413
+------epoch-------- 93
+------run val----------- 94
+----------val result--------
+	auc===>:0.8829497851615302, micro_f1===>:0.592, macro_f1===>:0.4239078258093539
+------epoch-------- 94
+------run val----------- 95
+----------val result--------
+	auc===>:0.8845225949122112, micro_f1===>:0.6000000000000001, macro_f1===>:0.521563714063714
+------epoch-------- 95
+------run val----------- 96
+----------val result--------
+	auc===>:0.8806145977373259, micro_f1===>:0.5801526717557252, macro_f1===>:0.5056578947368421
+------epoch-------- 96
+------run val----------- 97
+----------val result--------
+	auc===>:0.8803569368382084, micro_f1===>:0.5757575757575757, macro_f1===>:0.5061951447245565
+------epoch-------- 97
+------run val----------- 98
+----------val result--------
+	auc===>:0.8826691027302063, micro_f1===>:0.5648854961832062, macro_f1===>:0.5004392939971687
+------epoch-------- 98
+------run val----------- 99
+----------val result--------
+	auc===>:0.882697941616188, micro_f1===>:0.5954198473282444, macro_f1===>:0.5180349989458148
+------epoch-------- 99
+------run val----------- 100
+----------val result--------
+	auc===>:0.8829416063914468, micro_f1===>:0.5891472868217055, macro_f1===>:0.42081696081696085
+------epoch-------- 100
+------run val----------- 101
+----------val result--------
+	auc===>:0.8825806796845818, micro_f1===>:0.5846153846153845, macro_f1===>:0.5128007518796993
+------epoch-------- 101
+------run val----------- 102
+----------val result--------
+	auc===>:0.884653552708435, micro_f1===>:0.5984251968503937, macro_f1===>:0.42598802631060695
+------epoch-------- 102
+------run val----------- 103
+----------val result--------
+	auc===>:0.8857226379586486, micro_f1===>:0.5581395348837209, macro_f1===>:0.4066791979949874
+------epoch-------- 103
+------run val----------- 104
+----------val result--------
+	auc===>:0.8840075712389242, micro_f1===>:0.5801526717557252, macro_f1===>:0.4153225806451613
+------epoch-------- 104
+------run val----------- 105
+----------val result--------
+	auc===>:0.8833945106300654, micro_f1===>:0.5984251968503937, macro_f1===>:0.426498778998779
+------epoch-------- 105
+------run val----------- 106
+----------val result--------
+	auc===>:0.885604591097686, micro_f1===>:0.5846153846153845, macro_f1===>:0.41931380871533674
+------epoch-------- 106
+------run val----------- 107
+----------val result--------
+	auc===>:0.8868548581560762, micro_f1===>:0.5801526717557252, macro_f1===>:0.41097150688232287
+------epoch-------- 107
+------run val----------- 108
+----------val result--------
+	auc===>:0.8863341733168454, micro_f1===>:0.5599999999999999, macro_f1===>:0.39793905440964267
+------epoch-------- 108
+------run val----------- 109
+----------val result--------
+	auc===>:0.8853364973233712, micro_f1===>:0.5736434108527132, macro_f1===>:0.4063048552754435
+------epoch-------- 109
+------run val----------- 110
+----------val result--------
+	auc===>:0.8846236401007099, micro_f1===>:0.5692307692307692, macro_f1===>:0.41654761904761906
+------epoch-------- 110
+------run val----------- 111
+----------val result--------
+	auc===>:0.8917849367402166, micro_f1===>:0.5625, macro_f1===>:0.4095986761776236
+------epoch-------- 111
+------run val----------- 112
+----------val result--------
+	auc===>:0.8856337968699703, micro_f1===>:0.578125, macro_f1===>:0.41335630743525476
+------epoch-------- 112
+------run val----------- 113
+----------val result--------
+	auc===>:0.8817033662202706, micro_f1===>:0.576, macro_f1===>:0.501991341991342
+------epoch-------- 113
+------run val----------- 114
+----------val result--------
+	auc===>:0.8874907076591982, micro_f1===>:0.5736434108527132, macro_f1===>:0.4070707070707071
+------epoch-------- 114
+------run val----------- 115
+----------val result--------
+	auc===>:0.892487941376776, micro_f1===>:0.5692307692307692, macro_f1===>:0.4114071944567301
+------epoch-------- 115
+------run val----------- 116
+----------val result--------
+	auc===>:0.885267430168251, micro_f1===>:0.5937499999999999, macro_f1===>:0.4238472638472638
+------epoch-------- 116
+------run val----------- 117
+----------val result--------
+	auc===>:0.8826816435048146, micro_f1===>:0.5736434108527132, macro_f1===>:0.504313725490196
+------epoch-------- 117
+------run val----------- 118
+----------val result--------
+	auc===>:0.8819875244737794, micro_f1===>:0.5984251968503937, macro_f1===>:0.5235619351408826
+------epoch-------- 118
+------run val----------- 119
+----------val result--------
+	auc===>:0.8885801328813511, micro_f1===>:0.5648854961832062, macro_f1===>:0.4099159663865546
+------epoch-------- 119
+------run val----------- 120
+----------val result--------
+	auc===>:0.8851169278020622, micro_f1===>:0.5801526717557252, macro_f1===>:0.41365591397849466
+------epoch-------- 120
+------run val----------- 121
+----------val result--------
+	auc===>:0.8835374232777985, micro_f1===>:0.578125, macro_f1===>:0.5047222222222223
+------epoch-------- 121
+------run val----------- 122
+----------val result--------
+	auc===>:0.886403404998122, micro_f1===>:0.556390977443609, macro_f1===>:0.40474052779006336
+------epoch-------- 122
+------run val----------- 123
+----------val result--------
+	auc===>:0.8851730125562449, micro_f1===>:0.5891472868217055, macro_f1===>:0.41778289810547875
+------epoch-------- 123
+------run val----------- 124
+----------val result--------
+	auc===>:0.8808964687445243, micro_f1===>:0.5625, macro_f1===>:0.41191876750700285
+------epoch-------- 124
+------run val----------- 125
+----------val result--------
+	auc===>:0.8799191250342314, micro_f1===>:0.5801526717557252, macro_f1===>:0.5020891963823653
+------epoch-------- 125
+------run val----------- 126
+----------val result--------
+	auc===>:0.8860388930235846, micro_f1===>:0.578125, macro_f1===>:0.41236936427089227
+------epoch-------- 126
+------run val----------- 127
+----------val result--------
+	auc===>:0.8875244809909653, micro_f1===>:0.5312500000000001, macro_f1===>:0.3874615544947562
+------epoch-------- 127
+------run val----------- 128
+----------val result--------
+	auc===>:0.8862569273916417, micro_f1===>:0.5873015873015873, macro_f1===>:0.4210852451641925
+------epoch-------- 128
+------run val----------- 129
+----------val result--------
+	auc===>:0.8847240263361689, micro_f1===>:0.5846153846153845, macro_f1===>:0.4155606758832565
+------epoch-------- 129
+------run val----------- 130
+----------val result--------
+	auc===>:0.8817159168974685, micro_f1===>:0.5645161290322581, macro_f1===>:0.4049673202614379
+------epoch-------- 130
+------run val----------- 131
+----------val result--------
+	auc===>:0.8840314178145915, micro_f1===>:0.5984251968503937, macro_f1===>:0.5210852451641925
+------epoch-------- 131
+------run val----------- 132
+----------val result--------
+	auc===>:0.884782698595903, micro_f1===>:0.5937499999999999, macro_f1===>:0.42159242191500257
+------epoch-------- 132
+------run val----------- 133
+----------val result--------
+	auc===>:0.8880001954932905, micro_f1===>:0.5625, macro_f1===>:0.4061111111111111
+------epoch-------- 133
+------run val----------- 134
+----------val result--------
+	auc===>:0.887386836189455, micro_f1===>:0.5806451612903226, macro_f1===>:0.5046876600102406
+------epoch-------- 134
+------run val----------- 135
+----------val result--------
+	auc===>:0.8872928080527911, micro_f1===>:0.5648854961832062, macro_f1===>:0.40119092798409695
+------epoch-------- 135
+------run val----------- 136
+----------val result--------
+	auc===>:0.8846628084746122, micro_f1===>:0.5846153846153845, macro_f1===>:0.41698924731182796
+------epoch-------- 136
+------run val----------- 137
+----------val result--------
+	auc===>:0.8795092764065144, micro_f1===>:0.5864661654135339, macro_f1===>:0.5153085150143973
+------epoch-------- 137
+------run val----------- 138
+----------val result--------
+	auc===>:0.883787982402926, micro_f1===>:0.6000000000000001, macro_f1===>:0.5295887445887446
+------epoch-------- 138
+------run val----------- 139
+----------val result--------
+	auc===>:0.8817575555631383, micro_f1===>:0.5671641791044776, macro_f1===>:0.5058148714031067
+------epoch-------- 139
+------run val----------- 140
+----------val result--------
+	auc===>:0.8856350218613915, micro_f1===>:0.5873015873015873, macro_f1===>:0.42057449247602047
+------epoch-------- 140
+------run val----------- 141
+----------val result--------
+	auc===>:0.8862496776223244, micro_f1===>:0.5937499999999999, macro_f1===>:0.42408326440584504
+------epoch-------- 141
+------run val----------- 142
+----------val result--------
+	auc===>:0.8846277127428193, micro_f1===>:0.5714285714285714, macro_f1===>:0.5005905695611578
+------epoch-------- 142
+------run val----------- 143
+----------val result--------
+	auc===>:0.884796575941713, micro_f1===>:0.5801526717557252, macro_f1===>:0.506989247311828
+------epoch-------- 143
+------run val----------- 144
+----------val result--------
+	auc===>:0.882931546381224, micro_f1===>:0.5692307692307692, macro_f1===>:0.41654761904761906
+------epoch-------- 144
+------run val----------- 145
+----------val result--------
+	auc===>:0.8862777783212934, micro_f1===>:0.5692307692307692, macro_f1===>:0.41654761904761906
+------epoch-------- 145
+------run val----------- 146
+----------val result--------
+	auc===>:0.8803311354224324, micro_f1===>:0.5648854961832062, macro_f1===>:0.413517316017316
+------epoch-------- 146
+------run val----------- 147
+----------val result--------
+	auc===>:0.884535028375625, micro_f1===>:0.5937499999999999, macro_f1===>:0.42159242191500257
+------epoch-------- 147
+------run val----------- 148
+----------val result--------
+	auc===>:0.8825485635584652, micro_f1===>:0.5581395348837209, macro_f1===>:0.4001591819523508
+------epoch-------- 148
+------run val----------- 149
+----------val result--------
+	auc===>:0.8818636502769133, micro_f1===>:0.578125, macro_f1===>:0.41785714285714287
+------epoch-------- 149
+------run val----------- 150
+----------val result--------
+	auc===>:0.8847336302439878, micro_f1===>:0.5396825396825397, macro_f1===>:0.3813470842882608
+------epoch-------- 150
+------run val----------- 151
+----------val result--------
+	auc===>:0.8847218415624383, micro_f1===>:0.578125, macro_f1===>:0.4150229741019215
+------epoch-------- 151
+------run val----------- 152
+----------val result--------
+	auc===>:0.8844922120309067, micro_f1===>:0.5937499999999999, macro_f1===>:0.5166896407685881
+------epoch-------- 152
+------run val----------- 153
+----------val result--------
+	auc===>:0.8847410973400158, micro_f1===>:0.5891472868217055, macro_f1===>:0.5125448028673836
+------epoch-------- 153
+------run val----------- 154
+----------val result--------
+	auc===>:0.8827227365073108, micro_f1===>:0.5937499999999999, macro_f1===>:0.5191647241647241
+------epoch-------- 154
+------run val----------- 155
+----------val result--------
+	auc===>:0.8833863433268357, micro_f1===>:0.5692307692307692, macro_f1===>:0.4155388471177945
+------epoch-------- 155
+------run val----------- 156
+----------val result--------
+	auc===>:0.8829219231587155, micro_f1===>:0.5801526717557252, macro_f1===>:0.41771241830065353
+------epoch-------- 156
+------run val----------- 157
+----------val result--------
+	auc===>:0.8868611222001554, micro_f1===>:0.5801526717557252, macro_f1===>:0.41365591397849466
+------epoch-------- 157
+------run val----------- 158
+----------val result--------
+	auc===>:0.8842339229602926, micro_f1===>:0.578125, macro_f1===>:0.41335630743525476
+------epoch-------- 158
+------run val----------- 159
+----------val result--------
+	auc===>:0.8819478858262976, micro_f1===>:0.5891472868217055, macro_f1===>:0.41968766001024066
+------epoch-------- 159
+------run val----------- 160
+----------val result--------
+	auc===>:0.8877047771868305, micro_f1===>:0.5581395348837209, macro_f1===>:0.405749299719888
+------epoch-------- 160
+------run val----------- 161
+----------val result--------
+	auc===>:0.8849485227603265, micro_f1===>:0.5625, macro_f1===>:0.4019444444444445
+------epoch-------- 161
+------run val----------- 162
+----------val result--------
+	auc===>:0.8850508237217898, micro_f1===>:0.578125, macro_f1===>:0.4184873949579832
+------epoch-------- 162
+------run val----------- 163
+----------val result--------
+	auc===>:0.8866698354290368, micro_f1===>:0.5736434108527132, macro_f1===>:0.4041823809755499
+------epoch-------- 163
+------run val----------- 164
+----------val result--------
+	auc===>:0.8853252481672454, micro_f1===>:0.5581395348837209, macro_f1===>:0.40087813620071683
+------epoch-------- 164
+------run val----------- 165
+----------val result--------
+	auc===>:0.8860322995029855, micro_f1===>:0.5736434108527132, macro_f1===>:0.41022860180754916
+------epoch-------- 165
+------run val----------- 166
+----------val result--------
+	auc===>:0.8781097099543456, micro_f1===>:0.5606060606060606, macro_f1===>:0.5087513793396147
+------epoch-------- 166
+------run val----------- 167
+----------val result--------
+	auc===>:0.8803770381139934, micro_f1===>:0.5714285714285714, macro_f1===>:0.4163324420677362
+------epoch-------- 167
+------run val----------- 168
+----------val result--------
+	auc===>:0.8857815588966653, micro_f1===>:0.5826771653543307, macro_f1===>:0.5090873015873016
+------epoch-------- 168
+------run val----------- 169
+----------val result--------
+	auc===>:0.8858908714217815, micro_f1===>:0.5826771653543307, macro_f1===>:0.41941535588594414
+------epoch-------- 169
+------run val----------- 170
+----------val result--------
+	auc===>:0.8839000832294754, micro_f1===>:0.578125, macro_f1===>:0.41335630743525476
+------epoch-------- 170
+------run val----------- 171
+----------val result--------
+	auc===>:0.890277087446653, micro_f1===>:0.5692307692307692, macro_f1===>:0.4129151309646666
+------epoch-------- 171
+------run val----------- 172
+----------val result--------
+	auc===>:0.8870971972569588, micro_f1===>:0.5648854961832062, macro_f1===>:0.4110919540229885
+------epoch-------- 172
+------run val----------- 173
+----------val result--------
+	auc===>:0.8828981838942427, micro_f1===>:0.5937499999999999, macro_f1===>:0.42302099334357396
+------epoch-------- 173
+------run val----------- 174
+----------val result--------
+	auc===>:0.8857114894854782, micro_f1===>:0.5873015873015873, macro_f1===>:0.4210852451641925
+------epoch-------- 174
+------run val----------- 175
+----------val result--------
+	auc===>:0.8831518414826343, micro_f1===>:0.609375, macro_f1===>:0.5294185784975258
+------epoch-------- 175
+------run val----------- 176
+----------val result--------
+	auc===>:0.8845468836842363, micro_f1===>:0.5801526717557252, macro_f1===>:0.4246358543417367
+------epoch-------- 176
+------run val----------- 177
+----------val result--------
+	auc===>:0.877866064493776, micro_f1===>:0.5692307692307692, macro_f1===>:0.497528305028305
+------epoch-------- 177
+------run val----------- 178
+----------val result--------
+	auc===>:0.8812250285922361, micro_f1===>:0.5937499999999999, macro_f1===>:0.4238472638472638
+------epoch-------- 178
+------run val----------- 179
+----------val result--------
+	auc===>:0.8847280917800102, micro_f1===>:0.5426356589147286, macro_f1===>:0.3877756557168322
+------epoch-------- 179
+------run val----------- 180
+----------val result--------
+	auc===>:0.8873639951442049, micro_f1===>:0.5692307692307692, macro_f1===>:0.41383753501400555
+------epoch-------- 180
+------run val----------- 181
+----------val result--------
+	auc===>:0.8827105845584773, micro_f1===>:0.5757575757575757, macro_f1===>:0.5132372598162072
+------epoch-------- 181
+------run val----------- 182
+----------val result--------
+	auc===>:0.8789257818280032, micro_f1===>:0.5757575757575757, macro_f1===>:0.49996543778801844
+------epoch-------- 182
+------run val----------- 183
+----------val result--------
+	auc===>:0.8844312476862474, micro_f1===>:0.5937499999999999, macro_f1===>:0.4309523809523809
+------epoch-------- 183
+------run val----------- 184
+----------val result--------
+	auc===>:0.8828392988017443, micro_f1===>:0.6141732283464568, macro_f1===>:0.5323088023088023
+------epoch-------- 184
+------run val----------- 185
+----------val result--------
+	auc===>:0.8800870191182548, micro_f1===>:0.5826771653543307, macro_f1===>:0.41790849673202607
+------epoch-------- 185
+------run val----------- 186
+----------val result--------
+	auc===>:0.8728504033164317, micro_f1===>:0.5555555555555556, macro_f1===>:0.47400326797385617
+------epoch-------- 186
+------run val----------- 187
+----------val result--------
+	auc===>:0.8820543776378902, micro_f1===>:0.5801526717557252, macro_f1===>:0.5160944026733499
+------epoch-------- 187
+------run val----------- 188
+----------val result--------
+	auc===>:0.8781649591924492, micro_f1===>:0.5846153846153845, macro_f1===>:0.42441330599225335
+------epoch-------- 188
+------run val----------- 189
+----------val result--------
+	auc===>:0.8791029530476473, micro_f1===>:0.5669291338582677, macro_f1===>:0.4151542317331791
+------epoch-------- 189
+------run val----------- 190
+----------val result--------
+	auc===>:0.8841285856686808, micro_f1===>:0.5954198473282444, macro_f1===>:0.5159528327460017
+------epoch-------- 190
+------run val----------- 191
+----------val result--------
+	auc===>:0.881017085015945, micro_f1===>:0.5846153846153845, macro_f1===>:0.5075000000000001
+------epoch-------- 191
+------run val----------- 192
+----------val result--------
+	auc===>:0.8826419454285391, micro_f1===>:0.5801526717557252, macro_f1===>:0.42478015448603684
+------epoch-------- 192
+------run val----------- 193
+----------val result--------
+	auc===>:0.8806570246067021, micro_f1===>:0.5606060606060606, macro_f1===>:0.5013709677419355
+------epoch-------- 193
+------run val----------- 194
+----------val result--------
+	auc===>:0.8818669781037706, micro_f1===>:0.5736434108527132, macro_f1===>:0.41565789473684206
+------epoch-------- 194
+------run val----------- 195
+----------val result--------
+	auc===>:0.8859890723134811, micro_f1===>:0.5984251968503937, macro_f1===>:0.5195122214137495
+------epoch-------- 195
+------run val----------- 196
+----------val result--------
+	auc===>:0.8789901460352245, micro_f1===>:0.5714285714285714, macro_f1===>:0.49782051282051293
+------epoch-------- 196
+------run val----------- 197
+----------val result--------
+	auc===>:0.8829846515297299, micro_f1===>:0.578125, macro_f1===>:0.5052777777777778
+------epoch-------- 197
+------run val----------- 198
+----------val result--------
+	auc===>:0.8819515623648254, micro_f1===>:0.5826771653543307, macro_f1===>:0.42142857142857143
+------epoch-------- 198
+------run val----------- 199
+----------val result--------
+	auc===>:0.8858698818293632, micro_f1===>:0.5736434108527132, macro_f1===>:0.5019444444444445
+------epoch-------- 199
+------run val----------- 200
+----------val result--------
+	auc===>:0.8821291824886053, micro_f1===>:0.5736434108527132, macro_f1===>:0.40734126984126984
+------epoch-------- 200
+------run val----------- 201
+----------val result--------
+	auc===>:0.879416811500324, micro_f1===>:0.5555555555555556, macro_f1===>:0.3965057817998994
+------epoch-------- 201
+------run val----------- 202
+----------val result--------
+	auc===>:0.8729489083117512, micro_f1===>:0.5669291338582677, macro_f1===>:0.5024206349206348
+------epoch-------- 202
+------run val----------- 203
+----------val result--------
+	auc===>:0.884312164513324, micro_f1===>:0.5937499999999999, macro_f1===>:0.4222294372294373
+------epoch-------- 203
+------run val----------- 204
+----------val result--------
+	auc===>:0.8838437569952781, micro_f1===>:0.5891472868217055, macro_f1===>:0.42019841269841274
+------epoch-------- 204
+------run val----------- 205
+----------val result--------
+	auc===>:0.8830221581244967, micro_f1===>:0.5891472868217055, macro_f1===>:0.5175369797041623
+------epoch-------- 205
+------run val----------- 206
+----------val result--------
+	auc===>:0.8814787648445715, micro_f1===>:0.5692307692307692, macro_f1===>:0.41654761904761906
+------epoch-------- 206
+------run val----------- 207
+----------val result--------
+	auc===>:0.8843006265648112, micro_f1===>:0.5846153846153845, macro_f1===>:0.42107142857142854
+------epoch-------- 207
+------run val----------- 208
+----------val result--------
+	auc===>:0.8820711824383898, micro_f1===>:0.5777777777777778, macro_f1===>:0.5097997048281678
+------epoch-------- 208
+------run val----------- 209
+----------val result--------
+	auc===>:0.8794921713467737, micro_f1===>:0.6046511627906976, macro_f1===>:0.5325051487899785
+------epoch-------- 209
+------run val----------- 210
+----------val result--------
+	auc===>:0.8821386236598926, micro_f1===>:0.5736434108527132, macro_f1===>:0.4200252525252526
+------epoch-------- 210
+------run val----------- 211
+----------val result--------
+	auc===>:0.8835021493391633, micro_f1===>:0.5669291338582677, macro_f1===>:0.4074980574980575
+------epoch-------- 211
+------run val----------- 212
+----------val result--------
+	auc===>:0.8843111688854964, micro_f1===>:0.5555555555555556, macro_f1===>:0.3940480708412397
+------epoch-------- 212
+------run val----------- 213
+----------val result--------
+	auc===>:0.8827723470889713, micro_f1===>:0.5736434108527132, macro_f1===>:0.4140429505135387
+------epoch-------- 213
+------run val----------- 214
+----------val result--------
+	auc===>:0.8795381747212898, micro_f1===>:0.6046511627906976, macro_f1===>:0.5243256090314914
+------epoch-------- 214
+------run val----------- 215
+----------val result--------
+	auc===>:0.8838972729885699, micro_f1===>:0.5891472868217055, macro_f1===>:0.5140381256170731
+------epoch-------- 215
+------run val----------- 216
+----------val result--------
+	auc===>:0.8812326193049274, micro_f1===>:0.5826771653543307, macro_f1===>:0.4221551724137931
+------epoch-------- 216
+------run val----------- 217
+----------val result--------
+	auc===>:0.8803842212562492, micro_f1===>:0.5806451612903226, macro_f1===>:0.5051984126984127
+------epoch-------- 217
+------run val----------- 218
+----------val result--------
+	auc===>:0.8828627993700626, micro_f1===>:0.5736434108527132, macro_f1===>:0.4182142857142857
+------epoch-------- 218
+------run val----------- 219
+----------val result--------
+	auc===>:0.8834261899684673, micro_f1===>:0.5645161290322581, macro_f1===>:0.4023346588052471
+------epoch-------- 219
+------run val----------- 220
+----------val result--------
+	auc===>:0.8806581209174851, micro_f1===>:0.6000000000000001, macro_f1===>:0.5245448411237885
+------epoch-------- 220
+------run val----------- 221
+----------val result--------
+	auc===>:0.8869572130581511, micro_f1===>:0.5581395348837209, macro_f1===>:0.3992114695340502
+------epoch-------- 221
+------run val----------- 222
+----------val result--------
+	auc===>:0.8846744944184524, micro_f1===>:0.5937499999999999, macro_f1===>:0.42302099334357396
+------epoch-------- 222
+------run val----------- 223
+----------val result--------
+	auc===>:0.8763372333760907, micro_f1===>:0.592, macro_f1===>:0.4231465919701213
+------epoch-------- 223
+------run val----------- 224
+----------val result--------
+	auc===>:0.8820958715825826, micro_f1===>:0.5625, macro_f1===>:0.4120238095238095
+------epoch-------- 224
+------run val----------- 225
+----------val result--------
+	auc===>:0.878370940160335, micro_f1===>:0.5606060606060606, macro_f1===>:0.4871033868092692
+------epoch-------- 225
+------run val----------- 226
+----------val result--------
+	auc===>:0.8813878538362937, micro_f1===>:0.5954198473282444, macro_f1===>:0.518388987173817
+------epoch-------- 226
+------run val----------- 227
+----------val result--------
+	auc===>:0.882110532863513, micro_f1===>:0.5581395348837209, macro_f1===>:0.405749299719888
+------epoch-------- 227
+------run val----------- 228
+----------val result--------
+	auc===>:0.8861726918422572, micro_f1===>:0.5692307692307692, macro_f1===>:0.41536340852130327
+------epoch-------- 228
+------run val----------- 229
+----------val result--------
+	auc===>:0.8839672763427242, micro_f1===>:0.5757575757575757, macro_f1===>:0.4207142857142857
+------epoch-------- 229
+------run val----------- 230
+----------val result--------
+	auc===>:0.8832579329220589, micro_f1===>:0.5736434108527132, macro_f1===>:0.4118650793650794
+------epoch-------- 230
+------run val----------- 231
+----------val result--------
+	auc===>:0.8884338846384642, micro_f1===>:0.5692307692307692, macro_f1===>:0.4120229580035281
+------epoch-------- 231
+------run val----------- 232
+----------val result--------
+	auc===>:0.8793227299930771, micro_f1===>:0.5820895522388061, macro_f1===>:0.5120938375350141
+------epoch-------- 232
+------run val----------- 233
+----------val result--------
+	auc===>:0.8838446046277785, micro_f1===>:0.5891472868217055, macro_f1===>:0.5140381256170731
+------epoch-------- 233
+------run val----------- 234
+----------val result--------
+	auc===>:0.8851607611440521, micro_f1===>:0.5692307692307692, macro_f1===>:0.4105555555555556
+------epoch-------- 234
+------run val----------- 235
+----------val result--------
+	auc===>:0.8887315208598512, micro_f1===>:0.5581395348837209, macro_f1===>:0.40864162669116233
+------epoch-------- 235
+------run val----------- 236
+----------val result--------
+	auc===>:0.8804254529215119, micro_f1===>:0.5581395348837209, macro_f1===>:0.4071469479653622
+------epoch-------- 236
+------run val----------- 237
+----------val result--------
+	auc===>:0.8788825001278587, micro_f1===>:0.576, macro_f1===>:0.5044491129785247
+------epoch-------- 237
+------run val----------- 238
+----------val result--------
+	auc===>:0.8788768500045616, micro_f1===>:0.5736434108527132, macro_f1===>:0.41708874458874456
+------epoch-------- 238
+------run val----------- 239
+----------val result--------
+	auc===>:0.8871835367818367, micro_f1===>:0.5538461538461539, macro_f1===>:0.40408263305322134
+------epoch-------- 239
+------run val----------- 240
+----------val result--------
+	auc===>:0.8763055396411531, micro_f1===>:0.5714285714285714, macro_f1===>:0.48503267973856207
+------epoch-------- 240
+------run val----------- 241
+----------val result--------
+	auc===>:0.8841900516384914, micro_f1===>:0.5937499999999999, macro_f1===>:0.5166896407685881
+------epoch-------- 241
+------run val----------- 242
+----------val result--------
+	auc===>:0.8847201083176264, micro_f1===>:0.5826771653543307, macro_f1===>:0.4157026976042256
+------epoch-------- 242
+------run val----------- 243
+----------val result--------
+	auc===>:0.8796398640420854, micro_f1===>:0.5801526717557252, macro_f1===>:0.42048850574712643
+------epoch-------- 243
+------run val----------- 244
+----------val result--------
+	auc===>:0.8799743621559137, micro_f1===>:0.5757575757575757, macro_f1===>:0.5032987711213518
+------epoch-------- 244
+------run val----------- 245
+----------val result--------
+	auc===>:0.8834187581479289, micro_f1===>:0.5714285714285714, macro_f1===>:0.49921356421356416
+------epoch-------- 245
+------run val----------- 246
+----------val result--------
+	auc===>:0.8821806258579759, micro_f1===>:0.5826771653543307, macro_f1===>:0.41593818634066315
+------epoch-------- 246
+------run val----------- 247
+----------val result--------
+	auc===>:0.8811498981093795, micro_f1===>:0.5581395348837209, macro_f1===>:0.4057348111658457
+------epoch-------- 247
+------run val----------- 248
+----------val result--------
+	auc===>:0.8851314453562514, micro_f1===>:0.5891472868217055, macro_f1===>:0.4181750549682238
+------epoch-------- 248
+------run val----------- 249
+----------val result--------
+	auc===>:0.882204136328884, micro_f1===>:0.578125, macro_f1===>:0.41335630743525476
+------epoch-------- 249
+------run val----------- 250
+----------val result--------
+	auc===>:0.8838520479151708, micro_f1===>:0.5692307692307692, macro_f1===>:0.4147619047619048
+------epoch-------- 250
+------run val----------- 251
+----------val result--------
+	auc===>:0.884102865051142, micro_f1===>:0.5669291338582677, macro_f1===>:0.4122130552625909
+------epoch-------- 251
+------run val----------- 252
+----------val result--------
+	auc===>:0.881230108329027, micro_f1===>:0.5909090909090909, macro_f1===>:0.5175068137916435
+------epoch-------- 252
+------run val----------- 253
+----------val result--------
+	auc===>:0.8800693463763297, micro_f1===>:0.5692307692307692, macro_f1===>:0.40887445887445883
+------epoch-------- 253
+------run val----------- 254
+----------val result--------
+	auc===>:0.878668617065855, micro_f1===>:0.5777777777777778, macro_f1===>:0.5082843137254902
+------epoch-------- 254
+------run val----------- 255
+----------val result--------
+	auc===>:0.8831742749574486, micro_f1===>:0.6141732283464568, macro_f1===>:0.5298321123321124
+------epoch-------- 255
+------run val----------- 256
+----------val result--------
+	auc===>:0.884977951267965, micro_f1===>:0.5692307692307692, macro_f1===>:0.4143650793650794
+------epoch-------- 256
+------run val----------- 257
+----------val result--------
+	auc===>:0.883511631764612, micro_f1===>:0.578125, macro_f1===>:0.4189169000933707
+------epoch-------- 257
+------run val----------- 258
+----------val result--------
+	auc===>:0.8787478542467143, micro_f1===>:0.6153846153846154, macro_f1===>:0.5315539362598186
+------epoch-------- 258
+------run val----------- 259
+----------val result--------
+	auc===>:0.8824027521032928, micro_f1===>:0.5801526717557252, macro_f1===>:0.5075448028673835
+------epoch-------- 259
+------run val----------- 260
+----------val result--------
+	auc===>:0.8848559906570461, micro_f1===>:0.5625, macro_f1===>:0.41120448179271707
+------epoch-------- 260
+------run val----------- 261
+----------val result--------
+	auc===>:0.8842529906284385, micro_f1===>:0.5648854961832062, macro_f1===>:0.4142498487598306
+------epoch-------- 261
+------run val----------- 262
+----------val result--------
+	auc===>:0.8760745922035416, micro_f1===>:0.5801526717557252, macro_f1===>:0.42323953823953814
+------epoch-------- 262
+------run val----------- 263
+----------val result--------
+	auc===>:0.8825212390263202, micro_f1===>:0.609375, macro_f1===>:0.528975468975469
+------epoch-------- 263
+------run val----------- 264
+----------val result--------
+	auc===>:0.8859720013096339, micro_f1===>:0.5736434108527132, macro_f1===>:0.4140429505135387
+------epoch-------- 264
+------run val----------- 265
+----------val result--------
+	auc===>:0.8831471891214578, micro_f1===>:0.556390977443609, macro_f1===>:0.3969098822324629
+------epoch-------- 265
+------run val----------- 266
+----------val result--------
+	auc===>:0.8882103310415796, micro_f1===>:0.5736434108527132, macro_f1===>:0.41491596638655465
+------epoch-------- 266
+------run val----------- 267
+----------val result--------
+	auc===>:0.8820537506064507, micro_f1===>:0.5891472868217055, macro_f1===>:0.5128801169590643
+------epoch-------- 267
+------run val----------- 268
+----------val result--------
+	auc===>:0.8822431446705761, micro_f1===>:0.5937499999999999, macro_f1===>:0.5166896407685881
+------epoch-------- 268
+------run val----------- 269
+----------val result--------
+	auc===>:0.8822647305128901, micro_f1===>:0.578125, macro_f1===>:0.41443001443001437
+------epoch-------- 269
+------run val----------- 270
+----------val result--------
+	auc===>:0.8814153670478992, micro_f1===>:0.5801526717557252, macro_f1===>:0.5072059655780818
+------epoch-------- 270
+------run val----------- 271
+----------val result--------
+	auc===>:0.8825614051623433, micro_f1===>:0.5692307692307692, macro_f1===>:0.4153454715219421
+------epoch-------- 271
+------run val----------- 272
+----------val result--------
+	auc===>:0.8851455180097613, micro_f1===>:0.5801526717557252, macro_f1===>:0.4145915864931145
+------epoch-------- 272
+------run val----------- 273
+----------val result--------
+	auc===>:0.8818392135095607, micro_f1===>:0.5891472868217055, macro_f1===>:0.5144674185463659
+------epoch-------- 273
+------run val----------- 274
+----------val result--------
+	auc===>:0.8784169215158402, micro_f1===>:0.5984251968503937, macro_f1===>:0.5225448028673835
+------epoch-------- 274
+------run val----------- 275
+----------val result--------
+	auc===>:0.8831695026781666, micro_f1===>:0.609375, macro_f1===>:0.5279273504273505
+------epoch-------- 275
+------run val----------- 276
+----------val result--------
+	auc===>:0.8756843861244226, micro_f1===>:0.5625, macro_f1===>:0.4957953067892216
+------epoch-------- 276
+------run val----------- 277
+----------val result--------
+	auc===>:0.879034824305393, micro_f1===>:0.5909090909090909, macro_f1===>:0.513601801424382
+------epoch-------- 277
+------run val----------- 278
+----------val result--------
+	auc===>:0.8840228022567935, micro_f1===>:0.5581395348837209, macro_f1===>:0.40974004483826204
+------epoch-------- 278
+------run val----------- 279
+----------val result--------
+	auc===>:0.8804250227620367, micro_f1===>:0.5801526717557252, macro_f1===>:0.42664289958407603
+------epoch-------- 279
+------run val----------- 280
+----------val result--------
+	auc===>:0.8829416063914468, micro_f1===>:0.5937499999999999, macro_f1===>:0.5166896407685881
+------epoch-------- 280
+------run val----------- 281
+----------val result--------
+	auc===>:0.8846525097682351, micro_f1===>:0.5669291338582677, macro_f1===>:0.404577308656256
+------epoch-------- 281
+------run val----------- 282
+----------val result--------
+	auc===>:0.8792852354351931, micro_f1===>:0.576, macro_f1===>:0.5023346588052471
+------epoch-------- 282
+------run val----------- 283
+----------val result--------
+	auc===>:0.8827158442917351, micro_f1===>:0.5669291338582677, macro_f1===>:0.40575396825396826
+------epoch-------- 283
+------run val----------- 284
+----------val result--------
+	auc===>:0.885917589801441, micro_f1===>:0.578125, macro_f1===>:0.4203634085213032
+------epoch-------- 284
+------run val----------- 285
+----------val result--------
+	auc===>:0.8837768052825054, micro_f1===>:0.5937499999999999, macro_f1===>:0.4309523809523809
+------epoch-------- 285
+------run val----------- 286
+----------val result--------
+	auc===>:0.8811618607291853, micro_f1===>:0.5801526717557252, macro_f1===>:0.4246358543417367
+------epoch-------- 286
+------run val----------- 287
+----------val result--------
+	auc===>:0.8786340186110886, micro_f1===>:0.5648854961832062, macro_f1===>:0.4165850815850815
+------epoch-------- 287
+------run val----------- 288
+----------val result--------
+	auc===>:0.879639345886105, micro_f1===>:0.6000000000000001, macro_f1===>:0.5196732299958107
+------epoch-------- 288
+------run val----------- 289
+----------val result--------
+	auc===>:0.8834372669759615, micro_f1===>:0.5937499999999999, macro_f1===>:0.5166896407685881
+------epoch-------- 289
+------run val----------- 290
+----------val result--------
+	auc===>:0.8853413482665975, micro_f1===>:0.5757575757575757, macro_f1===>:0.4123814041745731
+------epoch-------- 290
+------run val----------- 291
+----------val result--------
+	auc===>:0.8804414023212146, micro_f1===>:0.5937499999999999, macro_f1===>:0.5184337300126775
+------epoch-------- 291
+------run val----------- 292
+----------val result--------
+	auc===>:0.8781118034572207, micro_f1===>:0.5669291338582677, macro_f1===>:0.49983911513323276
+------epoch-------- 292
+------run val----------- 293
+----------val result--------
+	auc===>:0.8830916719699209, micro_f1===>:0.5736434108527132, macro_f1===>:0.409546783625731
+------epoch-------- 293
+------run val----------- 294
+----------val result--------
+	auc===>:0.8812254246162787, micro_f1===>:0.5954198473282444, macro_f1===>:0.5169892473118279
+------epoch-------- 294
+------run val----------- 295
+----------val result--------
+	auc===>:0.8856604943706762, micro_f1===>:0.5692307692307692, macro_f1===>:0.41093567251461993
+------epoch-------- 295
+------run val----------- 296
+----------val result--------
+	auc===>:0.8805134458076612, micro_f1===>:0.5606060606060606, macro_f1===>:0.40674603174603174
+------epoch-------- 296
+------run val----------- 297
+----------val result--------
+	auc===>:0.8838797003595713, micro_f1===>:0.5891472868217055, macro_f1===>:0.5123693642708923
+------epoch-------- 297
+------run val----------- 298
+----------val result--------
+	auc===>:0.8778732174245171, micro_f1===>:0.5648854961832062, macro_f1===>:0.413517316017316
+------epoch-------- 298
+------run val----------- 299
+----------val result--------
+	auc===>:0.8848294802715362, micro_f1===>:0.5954198473282444, macro_f1===>:0.515005120327701
+------epoch-------- 299
+------run val----------- 300
+----------val result--------
+	auc===>:0.8835664915273735, micro_f1===>:0.5625, macro_f1===>:0.40143369175627236
+------epoch-------- 300
+------run val----------- 301
+----------val result--------
+	auc===>:0.8798592141023904, micro_f1===>:0.5937499999999999, macro_f1===>:0.5184337300126775
+------epoch-------- 301
+------run val----------- 302
+----------val result--------
+	auc===>:0.8749890327694054, micro_f1===>:0.5801526717557252, macro_f1===>:0.41365591397849466
+------epoch-------- 302
+------run val----------- 303
+----------val result--------
+	auc===>:0.8817357221825987, micro_f1===>:0.5736434108527132, macro_f1===>:0.40942818780030404
+------epoch-------- 303
+------run val----------- 304
+----------val result--------
+	auc===>:0.8719467895155149, micro_f1===>:0.5599999999999999, macro_f1===>:0.4824206349206349
+------epoch-------- 304
+------run val----------- 305
+----------val result--------
+	auc===>:0.885482786250391, micro_f1===>:0.5736434108527132, macro_f1===>:0.4137134502923976
+------epoch-------- 305
+------run val----------- 306
+----------val result--------
+	auc===>:0.8794066773201031, micro_f1===>:0.5714285714285714, macro_f1===>:0.5068181818181818
+------epoch-------- 306
+------run val----------- 307
+----------val result--------
+	auc===>:0.8818915122797281, micro_f1===>:0.5846153846153845, macro_f1===>:0.4155606758832565
+------epoch-------- 307
+------run val----------- 308
+----------val result--------
+	auc===>:0.8826674773666175, micro_f1===>:0.5891472868217055, macro_f1===>:0.5125448028673836
+------epoch-------- 308
+------run val----------- 309
+----------val result--------
+	auc===>:0.8822063349291216, micro_f1===>:0.5581395348837209, macro_f1===>:0.40974004483826204
+------epoch-------- 309
+------run val----------- 310
+----------val result--------
+	auc===>:0.8832071500699928, micro_f1===>:0.578125, macro_f1===>:0.4205388471177944
+------epoch-------- 310
+------run val----------- 311
+----------val result--------
+	auc===>:0.8820737038869082, micro_f1===>:0.5891472868217055, macro_f1===>:0.5128801169590643
+------epoch-------- 311
+------run val----------- 312
+----------val result--------
+	auc===>:0.8821757226842237, micro_f1===>:0.5757575757575757, macro_f1===>:0.4207142857142857
+------epoch-------- 312
+------run val----------- 313
+----------val result--------
+	auc===>:0.883376827415522, micro_f1===>:0.5511811023622047, macro_f1===>:0.3988235294117647
+------epoch-------- 313
+------run val----------- 314
+----------val result--------
+	auc===>:0.8843249747656301, micro_f1===>:0.5736434108527132, macro_f1===>:0.40903603093755886
+------epoch-------- 314
+------run val----------- 315
+----------val result--------
+	auc===>:0.8825255311294331, micro_f1===>:0.609375, macro_f1===>:0.525436507936508
+------epoch-------- 315
+------run val----------- 316
+----------val result--------
+	auc===>:0.8817005736502512, micro_f1===>:0.5692307692307692, macro_f1===>:0.41309056956115786
+------epoch-------- 316
+------run val----------- 317
+----------val result--------
+	auc===>:0.8784721113251504, micro_f1===>:0.5846153846153845, macro_f1===>:0.5173809523809524
+------epoch-------- 317
+------run val----------- 318
+----------val result--------
+	auc===>:0.8730820454730625, micro_f1===>:0.5426356589147286, macro_f1===>:0.3818700159489633
+------epoch-------- 318
+------run val----------- 319
+----------val result--------
+	auc===>:0.8789667241308502, micro_f1===>:0.5801526717557252, macro_f1===>:0.5074517260096008
+------epoch-------- 319
+------run val----------- 320
+----------val result--------
+	auc===>:0.8770779359911991, micro_f1===>:0.5891472868217055, macro_f1===>:0.4263180678970152
+------epoch-------- 320
+------run val----------- 321
+----------val result--------
+	auc===>:0.879802641973771, micro_f1===>:0.5692307692307692, macro_f1===>:0.40788011695906434
+------epoch-------- 321
+------run val----------- 322
+----------val result--------
+	auc===>:0.883611788066449, micro_f1===>:0.5937499999999999, macro_f1===>:0.5157026976042256
+------epoch-------- 322
+------run val----------- 323
+----------val result--------
+	auc===>:0.8846922369822506, micro_f1===>:0.5692307692307692, macro_f1===>:0.41383753501400555
+------epoch-------- 323
+------run val----------- 324
+----------val result--------
+	auc===>:0.8799875024547685, micro_f1===>:0.5826771653543307, macro_f1===>:0.5090873015873016
+------epoch-------- 324
+------run val----------- 325
+----------val result--------
+	auc===>:0.8739067955281232, micro_f1===>:0.5648854961832062, macro_f1===>:0.4881419234360411
+------epoch-------- 325
+------run val----------- 326
+----------val result--------
+	auc===>:0.8798914115967728, micro_f1===>:0.5826771653543307, macro_f1===>:0.41775191183085914
+------epoch-------- 326
+------run val----------- 327
+----------val result--------
+	auc===>:0.8834813797777773, micro_f1===>:0.5736434108527132, macro_f1===>:0.40903603093755886
+------epoch-------- 327
+------run val----------- 328
+----------val result--------
+	auc===>:0.8831955720073758, micro_f1===>:0.5937499999999999, macro_f1===>:0.5163247863247863
+------epoch-------- 328
+------run val----------- 329
+----------val result--------
+	auc===>:0.8845839007702729, micro_f1===>:0.5714285714285714, macro_f1===>:0.5024654377880184
+------epoch-------- 329
+------run val----------- 330
+----------val result--------
+	auc===>:0.8776692986079346, micro_f1===>:0.6046511627906976, macro_f1===>:0.5325051487899785
+------epoch-------- 330
+------run val----------- 331
+----------val result--------
+	auc===>:0.8776361654845468, micro_f1===>:0.6031746031746033, macro_f1===>:0.5201875901875901
+------epoch-------- 331
+------run val----------- 332
+----------val result--------
+	auc===>:0.8836846390712914, micro_f1===>:0.5648854961832062, macro_f1===>:0.41142390289449116
+------epoch-------- 332
+------run val----------- 333
+----------val result--------
+	auc===>:0.8764656058010563, micro_f1===>:0.578125, macro_f1===>:0.433990025568973
+------epoch-------- 333
+------run val----------- 334
+----------val result--------
+	auc===>:0.8772771413872645, micro_f1===>:0.5757575757575757, macro_f1===>:0.5118299089970917
+------epoch-------- 334
+------run val----------- 335
+----------val result--------
+	auc===>:0.8793891569216303, micro_f1===>:0.5891472868217055, macro_f1===>:0.5144674185463659
+------epoch-------- 335
+------run val----------- 336
+----------val result--------
+	auc===>:0.8740316845879675, micro_f1===>:0.5801526717557252, macro_f1===>:0.5016949716949718
+------epoch-------- 336
+------run val----------- 337
+----------val result--------
+	auc===>:0.8787566298367224, micro_f1===>:0.556390977443609, macro_f1===>:0.5001300237963524
+------epoch-------- 337
+------run val----------- 338
+----------val result--------
+	auc===>:0.8806944317381097, micro_f1===>:0.578125, macro_f1===>:0.5052777777777778
+------epoch-------- 338
+------run val----------- 339
+----------val result--------
+	auc===>:0.8838691128608073, micro_f1===>:0.5692307692307692, macro_f1===>:0.4153454715219421
+------epoch-------- 339
+------run val----------- 340
+----------val result--------
+	auc===>:0.879196953186628, micro_f1===>:0.5937499999999999, macro_f1===>:0.4245940170940171
+------epoch-------- 340
+------run val----------- 341
+----------val result--------
+	auc===>:0.8847432826837751, micro_f1===>:0.578125, macro_f1===>:0.40865124544441433
+------epoch-------- 341
+------run val----------- 342
+----------val result--------
+	auc===>:0.878865304857781, micro_f1===>:0.5826771653543307, macro_f1===>:0.5108313908313908
+------epoch-------- 342
+------run val----------- 343
+----------val result--------
+	auc===>:0.8800325987679907, micro_f1===>:0.5801526717557252, macro_f1===>:0.42334685598377286
+------epoch-------- 343
+------run val----------- 344
+----------val result--------
+	auc===>:0.8772947244888814, micro_f1===>:0.5909090909090909, macro_f1===>:0.5266428995840761
+------epoch-------- 344
+------run val----------- 345
+----------val result--------
+	auc===>:0.8757020401216871, micro_f1===>:0.578125, macro_f1===>:0.42164773822668555
+------epoch-------- 345
+------run val----------- 346
+----------val result--------
+	auc===>:0.8825541213371322, micro_f1===>:0.5846153846153845, macro_f1===>:0.4225
+------epoch-------- 346
+------run val----------- 347
+----------val result--------
+	auc===>:0.8796502342141389, micro_f1===>:0.5669291338582677, macro_f1===>:0.49678104575163395
+------epoch-------- 347
+------run val----------- 348
+----------val result--------
+	auc===>:0.8844518379007338, micro_f1===>:0.5757575757575757, macro_f1===>:0.43039215686274507
+------epoch-------- 348
+------run val----------- 349
+----------val result--------
+	auc===>:0.8823547866904, micro_f1===>:0.5669291338582677, macro_f1===>:0.4972572362278244
+------epoch-------- 349
+------run val----------- 350
+----------val result--------
+	auc===>:0.8851174173107923, micro_f1===>:0.5692307692307692, macro_f1===>:0.4120229580035281
+------epoch-------- 350
+------run val----------- 351
+----------val result--------
+	auc===>:0.8834275744220699, micro_f1===>:0.5468749999999999, macro_f1===>:0.3901143790849673
+------epoch-------- 351
+------run val----------- 352
+----------val result--------
+	auc===>:0.8835743341926978, micro_f1===>:0.5511811023622047, macro_f1===>:0.39328898225957054
+------epoch-------- 352
+------run val----------- 353
+----------val result--------
+	auc===>:0.8829765541279123, micro_f1===>:0.5801526717557252, macro_f1===>:0.5159165154264972
+------epoch-------- 353
+------run val----------- 354
+----------val result--------
+	auc===>:0.8751059553219023, micro_f1===>:0.5757575757575757, macro_f1===>:0.496421568627451
+------epoch-------- 354
+------run val----------- 355
+----------val result--------
+	auc===>:0.8815309629317838, micro_f1===>:0.5846153846153845, macro_f1===>:0.5133333333333333
+------epoch-------- 355
+------run val----------- 356
+----------val result--------
+	auc===>:0.8810756406319236, micro_f1===>:0.5954198473282444, macro_f1===>:0.5179761904761906
+------epoch-------- 356
+------run val----------- 357
+----------val result--------
+	auc===>:0.8824462559687627, micro_f1===>:0.5826771653543307, macro_f1===>:0.512046783625731
+------epoch-------- 357
+------run val----------- 358
+----------val result--------
+	auc===>:0.883971200989506, micro_f1===>:0.5625, macro_f1===>:0.3984758068479231
+------epoch-------- 358
+------run val----------- 359
+----------val result--------
+	auc===>:0.8769069028393177, micro_f1===>:0.6046511627906976, macro_f1===>:0.5230668677727501
+------epoch-------- 359
+------run val----------- 360
+----------val result--------
+	auc===>:0.8780660658618447, micro_f1===>:0.5826771653543307, macro_f1===>:0.41662781662781656
+------epoch-------- 360
+------run val----------- 361
+----------val result--------
+	auc===>:0.8715632478526427, micro_f1===>:0.5625, macro_f1===>:0.4052433951247993
+------epoch-------- 361
+------run val----------- 362
+----------val result--------
+	auc===>:0.8791275086725872, micro_f1===>:0.5714285714285714, macro_f1===>:0.5008333333333334
+------epoch-------- 362
+------run val----------- 363
+----------val result--------
+	auc===>:0.8771284822814038, micro_f1===>:0.6046511627906976, macro_f1===>:0.5246082949308756
+------epoch-------- 363
+------run val----------- 364
+----------val result--------
+	auc===>:0.8816436627125507, micro_f1===>:0.5937499999999999, macro_f1===>:0.5166896407685881
+------epoch-------- 364
+------run val----------- 365
+----------val result--------
+	auc===>:0.877470752164909, micro_f1===>:0.578125, macro_f1===>:0.41260955418850165
+------epoch-------- 365
+------run val----------- 366
+----------val result--------
+	auc===>:0.8805296845697796, micro_f1===>:0.5937499999999999, macro_f1===>:0.5166896407685881
+------epoch-------- 366
+------run val----------- 367
+----------val result--------
+	auc===>:0.8802571479927026, micro_f1===>:0.5984251968503937, macro_f1===>:0.5207936507936508
+------epoch-------- 367
+------run val----------- 368
+----------val result--------
+	auc===>:0.8743000534739835, micro_f1===>:0.5692307692307692, macro_f1===>:0.4152586206896552
+------epoch-------- 368
+------run val----------- 369
+----------val result--------
+	auc===>:0.8805287274917918, micro_f1===>:0.5648854961832062, macro_f1===>:0.41217086834733896
+------epoch-------- 369
+------run val----------- 370
+----------val result--------
+	auc===>:0.8782701958011059, micro_f1===>:0.5555555555555556, macro_f1===>:0.4949206349206349
+------epoch-------- 370
+------run val----------- 371
+----------val result--------
+	auc===>:0.8784577378423707, micro_f1===>:0.6060606060606061, macro_f1===>:0.5229700201759024
+------epoch-------- 371
+------run val----------- 372
+----------val result--------
+	auc===>:0.8784182471902164, micro_f1===>:0.5714285714285714, macro_f1===>:0.5135618792971733
+------epoch-------- 372
+------run val----------- 373
+----------val result--------
+	auc===>:0.8798324759175518, micro_f1===>:0.5714285714285714, macro_f1===>:0.41106639146886825
+------epoch-------- 373
+------run val----------- 374
+----------val result--------
+	auc===>:0.8819728522164846, micro_f1===>:0.5954198473282444, macro_f1===>:0.44720551378446116
+------epoch-------- 374
+------run val----------- 375
+----------val result--------
+	auc===>:0.8792863790583484, micro_f1===>:0.5846153846153845, macro_f1===>:0.5106578947368421
+------epoch-------- 375
+------run val----------- 376
+----------val result--------
+	auc===>:0.8815420811934394, micro_f1===>:0.5692307692307692, macro_f1===>:0.412786631894137
+------epoch--------/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ScaledDotProductAttention. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LayerNormalization. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoswiseFeedForwardNet. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/yolo/anaconda3/envs/kd/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv1d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+ 376
+------run val----------- 377
+----------val result--------
+	auc===>:0.8813617322765588, micro_f1===>:0.5891472868217055, macro_f1===>:0.5155555555555555
+------epoch-------- 377
+------run val----------- 378
+----------val result--------
+	auc===>:0.879010139999815, micro_f1===>:0.609375, macro_f1===>:0.525436507936508
+------epoch-------- 378
+------run val----------- 379
+----------val result--------
+	auc===>:0.8805077071178303, micro_f1===>:0.5736434108527132, macro_f1===>:0.4133333333333333
+------epoch-------- 379
+------run val----------- 380
+----------val result--------
+	auc===>:0.884213263414423, micro_f1===>:0.5714285714285714, macro_f1===>:0.4997222222222222
+------epoch-------- 380
+------run val----------- 381
+----------val result--------
+	auc===>:0.879832457172891, micro_f1===>:0.5736434108527132, macro_f1===>:0.4203801169590643
+------epoch-------- 381
+------run val----------- 382
+----------val result--------
+	auc===>:0.8797434158583595, micro_f1===>:0.5873015873015873, macro_f1===>:0.42344537815126043
+------epoch-------- 382
+------run val----------- 383
+----------val result--------
+	auc===>:0.8774008780614213, micro_f1===>:0.5645161290322581, macro_f1===>:0.4937373737373737
+------epoch-------- 383
+------run val----------- 384
+----------val result--------
+	auc===>:0.8775242945916192, micro_f1===>:0.5426356589147286, macro_f1===>:0.39529363469525747
+------epoch-------- 384
+------run val----------- 385
+----------val result--------
+	auc===>:0.8791606809158434, micro_f1===>:0.5873015873015873, macro_f1===>:0.4168542568542568
+------epoch-------- 385
+------run val----------- 386
+----------val result--------
+	auc===>:0.8789979744498343, micro_f1===>:0.5426356589147286, macro_f1===>:0.39491596638655463
+------epoch-------- 386
+------run val----------- 387
+----------val result--------
+	auc===>:0.8827003222676468, micro_f1===>:0.5692307692307692, macro_f1===>:0.40621345029239764
+------epoch-------- 387
+------run val----------- 388
+----------val result--------
+	auc===>:0.8798941184504014, micro_f1===>:0.578125, macro_f1===>:0.5103801169590643
+------epoch-------- 388
+------run val----------- 389
+----------val result--------
+	auc===>:0.8783534533935485, micro_f1===>:0.5864661654135339, macro_f1===>:0.5219832196201365
+------epoch-------- 389
+------run val----------- 390
+----------val result--------
+	auc===>:0.8802869532892332, micro_f1===>:0.5954198473282444, macro_f1===>:0.5183889871738169
+------epoch-------- 390
+------run val----------- 391
+----------val result--------
+	auc===>:0.8744024683748807, micro_f1===>:0.5937499999999999, macro_f1===>:0.5145707070707071
+------epoch-------- 391
+------run val----------- 392
+----------val result--------
+	auc===>:0.8812042062302957, micro_f1===>:0.6046511627906976, macro_f1===>:0.521626984126984
+------epoch-------- 392
+------run val----------- 393
+----------val result--------
+	auc===>:0.8781726203765811, micro_f1===>:0.5937499999999999, macro_f1===>:0.4238472638472638
+------epoch-------- 393
+------run val----------- 394
+----------val result--------
+	auc===>:0.8820482313776237, micro_f1===>:0.5891472868217055, macro_f1===>:0.5155555555555555
+------epoch-------- 394
+------run val----------- 395
+----------val result--------
+	auc===>:0.8786785703349119, micro_f1===>:0.5555555555555556, macro_f1===>:0.3947649572649573
+------epoch-------- 395
+------run val----------- 396
+----------val result--------
+	auc===>:0.8773178169167355, micro_f1===>:0.6141732283464568, macro_f1===>:0.5323088023088023
+------epoch-------- 396
+------run val----------- 397
+----------val result--------
+	auc===>:0.8804419991411393, micro_f1===>:0.5937499999999999, macro_f1===>:0.5174603174603174
+------epoch-------- 397
+------run val----------- 398
+----------val result--------
+	auc===>:0.8751274317187286, micro_f1===>:0.5648854961832062, macro_f1===>:0.4083333333333333
+------epoch-------- 398
+------run val----------- 399
+----------val result--------
+	auc===>:0.8842225978445443, micro_f1===>:0.5692307692307692, macro_f1===>:0.412786631894137
+------epoch-------- 399
+------run val----------- 400
+----------val result--------
+	auc===>:0.8810022532964685, micro_f1===>:0.5937499999999999, macro_f1===>:0.42111623143881205
