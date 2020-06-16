@@ -29,19 +29,28 @@ class DataSetSplit():
         
         Train = []
         Valid = []
-        count = 0
-        for bag in os.listdir(os.path.join(self.DataSetDir, "train")):
+        bags = os.listdir(os.path.join(self.DataSetDir, "train"))
+        random.shuffle(bags)
+        num_bags = len(bags)
+        Traincount = int(num_bags//8*self.TrainRatio)
+        for bag in bags[:Traincount]:
             images = [os.path.join(self.DataSetDir, "train", bag, image) for image in os.listdir(os.path.join(self.DataSetDir, "train", bag))]
             random.shuffle(images)
             Total = len(images)
             resnum = 8 - Total % 8
-            count += Total
             images.extend(images[:resnum])
-            Traincount = int(len(images)//8*self.TrainRatio)
             
             images = [[bag, images[i*8:i*8+8]] for i in range(len(images)//8)]
-            Train.extend(images[:Traincount])
-            Valid.extend(images[Traincount:])
+            Train.extend(images)
+        for bag in bags[Traincount:]:
+            images = [os.path.join(self.DataSetDir, "train", bag, image) for image in os.listdir(os.path.join(self.DataSetDir, "train", bag))]
+            random.shuffle(images)
+            Total = len(images)
+            resnum = 8 - Total % 8
+            images.extend(images[:resnum])
+            
+            images = [[bag, images[i*8:i*8+8]] for i in range(len(images)//8)]
+            Valid.extend(images)
         random.shuffle(Train)
         random.shuffle(Valid)
         with open(self.TrainFile, "wb") as f:
@@ -73,15 +82,18 @@ class KfoldDataSet():
             pkl.dump(bag2label, f)
         
         AllData = [[] for _ in range(self.NumFold)]
-        for bag in os.listdir(os.path.join(self.DataSetDir, "train")):
-            images = [os.path.join(self.DataSetDir, "train", bag, image) for image in os.listdir(os.path.join(self.DataSetDir, "train", bag))]
-            random.shuffle(images)
-            Total = len(images)
-            resnum = 8 - Total % 8
-            images.extend(images[:resnum])
-            images = [[bag, images[i*8:i*8+8]] for i in range(len(images)//8)]
-            for i in range(self.NumFold):
-                AllData[i].extend(images[int(i/self.NumFold*len(images)):int((i+1)/self.NumFold*len(images))])
+        bags = os.listdir(os.path.join(self.DataSetDir, "train"))
+        random.shuffle(bags)
+        num_bags = len(bags)
+        for i in range(self.NumFold):
+            for bag in bags[int(i/self.NumFold*num_bags):int((i+1)/self.NumFold*num_bags)]:
+                images = [os.path.join(self.DataSetDir, "train", bag, image) for image in os.listdir(os.path.join(self.DataSetDir, "train", bag))]
+                random.shuffle(images)
+                Total = len(images)
+                resnum = 8 - Total % 8
+                images.extend(images[:resnum])
+                images = [[bag, images[j*8:j*8+8]] for j in range(len(images)//8)]
+                AllData[i].extend(images)
         for i in range(self.NumFold):
             random.shuffle(AllData[i])
             with open(self.FoldFile+f"_{i}.pkl", "wb") as f:
