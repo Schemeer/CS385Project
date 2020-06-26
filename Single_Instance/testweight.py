@@ -70,8 +70,8 @@ for m in [11,12,13,14,15,16]:
         model = torch.load("not_freeze_models/resnet{}.pt".format(m)).to(device)           
         #model = torch.load("final_models/resnet{}.pt".format(m)).to(device)
         for valid_inputs,labels in valid_data:
-                # if (labels.size(0) != 32):
-                #         continue
+                if (labels.size(0) != 32):
+                         continue
             
                 # count_valid += 1
                 # if count_valid == 5:
