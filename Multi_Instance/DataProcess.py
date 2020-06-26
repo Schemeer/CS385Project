@@ -82,12 +82,12 @@ class KfoldDataSet():
             pkl.dump(bag2label, f)
         
         AllData = [[] for _ in range(self.NumFold)]
-        bags = os.listdir(os.path.join(self.DataSetDir, "train"))
+        bags = os.listdir(self.DataSetDir)
         random.shuffle(bags)
         num_bags = len(bags)
         for i in range(self.NumFold):
             for bag in bags[int(i/self.NumFold*num_bags):int((i+1)/self.NumFold*num_bags)]:
-                images = [os.path.join(self.DataSetDir, "train", bag, image) for image in os.listdir(os.path.join(self.DataSetDir, "train", bag))]
+                images = [os.path.join(self.DataSetDir, bag, image) for image in os.listdir(os.path.join(self.DataSetDir, bag))]
                 random.shuffle(images)
                 Total = len(images)
                 resnum = 8 - Total % 8

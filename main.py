@@ -13,7 +13,7 @@ import os
 import csv
 
 
-DATASETDIR = "unknown" # 自己填一下
+DATASETDIR = "test" # 自己填一下
 FOLD_FILE = "TEST"
 GENERATE_FOLDFILE = True
 GROUP_SIZE = 8
