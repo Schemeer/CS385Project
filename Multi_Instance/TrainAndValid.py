@@ -35,8 +35,6 @@ def threshold_tensor_batch(pred, base=0.5):
 
 
 if __name__ == "__main__":
-
-
     epoch_num = 5
     batch_size = 2
     group_size = 8

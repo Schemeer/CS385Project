@@ -102,19 +102,22 @@ class KfoldDataset(Dataset):
         bag, image_paths = self.Datas[index]
         imgs = self.load_data(image_paths, self.resize_height, self.resize_width, normalization=False)
         label = self.encode(bag)
-        return imgs, label
+        return imgs, label, bag
 
 
 if __name__ == "__main__":
     # epoch_num = 2
-    # batch_size = 1
+    batch_size = 4
     # train_data = ImageDataset()
     # train_loader = DataLoader(dataset = train_data, batch_size=batch_size, shuffle = False)
     # for epoch in range(epoch_num):
     #     for batch_image, batch_label in train_loader:
     #         print(batch_image.shape)
     #         print(batch_label.shape)
-    
-    train_data = KfoldDataset(FoldIds=[0,1,2,3])
-    test_data = KfoldDataset(FoldIds=[4])
-    print(len(train_data), len(test_data))
+    transform = transforms.Compose([transforms.ToTensor()])
+    train_data = KfoldDataset(FoldIds=[0,1,2,3], transform=transform)
+    train_loader = DataLoader(dataset=train_data, batch_size=batch_size, shuffle=False)
+    all_bag = []
+    for i, l, bags in train_loader:
+        all_bag.extend(bags)
+        print(all_bag)
