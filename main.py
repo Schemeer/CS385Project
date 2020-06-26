@@ -13,8 +13,8 @@ import os
 import csv
 
 
-DATASETDIR = "test" # 自己填一下
-FOLD_FILE = "TEST"
+DATASET_DIR = "test" # 自己填一下
+DATA_FILE = "TestData.pkl"
 GENERATE_FOLDFILE = True
 GROUP_SIZE = 8
 BATCH_SIZE = 4
@@ -36,7 +36,7 @@ def threshold_tensor_batch(pred, base=0.5):
 
 if __name__=="__main__":
     if GENERATE_FOLDFILE:
-        Dprocess = DataProcess.KfoldDataSet(DataSetDir=DATASETDIR, NumFold=1, FoldFile=FOLD_FILE)
+        Dprocess = DataProcess.TestSet(DataSetDir=DATASET_DIR, DataFile=DATA_FILE)
         Dprocess.LoadAndSplit()
     
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -45,15 +45,14 @@ if __name__=="__main__":
     model.to(device)
 
     transform = transforms.Compose([transforms.ToTensor()])
-    dataset = DataSet.KfoldDataset(transform=transform, FoldIds=TEST_FOLD)
+    dataset = DataSet.TestSet(transform=transform, DataFile=DATA_FILE)
     dataloader = DataLoader(dataset=dataset, batch_size=BATCH_SIZE, shuffle=False)
     prob = [] # 概率
     pred = [] # 标签
     bags = [] # 包名
     model.eval()
-    for batch_image, batch_label, batch_bag in dataloader:
+    for batch_image, batch_bag in dataloader:
         batch_image = batch_image.view(-1,3,512,512).to(device)
-        batch_label = batch_label
 
         output = model(batch_image)
 

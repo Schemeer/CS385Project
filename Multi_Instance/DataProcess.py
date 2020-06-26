@@ -82,12 +82,12 @@ class KfoldDataSet():
             pkl.dump(bag2label, f)
         
         AllData = [[] for _ in range(self.NumFold)]
-        bags = os.listdir(self.DataSetDir)
+        bags = os.listdir(os.path.join(self.DataSetDir, "train"))
         random.shuffle(bags)
         num_bags = len(bags)
         for i in range(self.NumFold):
             for bag in bags[int(i/self.NumFold*num_bags):int((i+1)/self.NumFold*num_bags)]:
-                images = [os.path.join(self.DataSetDir, bag, image) for image in os.listdir(os.path.join(self.DataSetDir, bag))]
+                images = [os.path.join(self.DataSetDir, "train", bag, image) for image in os.listdir(os.path.join(self.DataSetDir, "train", bag))]
                 random.shuffle(images)
                 Total = len(images)
                 resnum = 8 - Total % 8
@@ -99,9 +99,31 @@ class KfoldDataSet():
             with open(self.FoldFile+f"_{i}.pkl", "wb") as f:
                 pkl.dump(AllData[i], f)
 
+class TestSet():
+    def __init__(self, DataSetDir="Dataset\\train", DataFile="TestData.pkl", GroupSize=8):
+        self.DataSetDir = DataSetDir
+        self.CurrentDir = os.path.dirname(os.path.abspath(__file__))
+        self.DataFile = os.path.join(self.CurrentDir, DataFile)
+        self.GroupSize = GroupSize
+
+    def LoadAndSplit(self):
+        bags = os.listdir(self.DataSetDir)
+        datas = []
+        for bag in bags:
+            images = [os.path.join(self.DataSetDir, bag, image) for image in os.listdir(os.path.join(self.DataSetDir, bag))]
+            random.shuffle(images)
+            Total = len(images)
+            resnum = 8 - Total % 8
+            images.extend(images[:resnum])
+            images = [[bag, images[j*8:j*8+8]] for j in range(len(images)//8)]
+            datas.extend(images)
+        with open(self.DataFile, "wb") as f:
+            pkl.dump(datas, f)
+
 if __name__=="__main__":
     # dss = DataSetSplit()
     # dss.LoadAndSplit()
-    kds = KfoldDataSet()
-    kds.LoadAndSplit()
-
+    # kds = KfoldDataSet()
+    # kds.LoadAndSplit()
+    tds = TestSet()
+    tds.LoadAndSplit()
