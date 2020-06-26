@@ -108,7 +108,7 @@ class KfoldDataset(Dataset):
 class TestSet(Dataset):
     def __init__(self, DataFile="TestData.pkl", resize_height=512, resize_width=512, repeat=1, classnum=10, transform=None):
         self.CurrentDir = os.path.dirname(os.path.abspath(__file__))
-        self.Datas = self.read_file(os.path.join(self.CurrentDir, DataSetDir))
+        self.Datas = self.read_file(os.path.join(self.CurrentDir, DataFile))
         self.repeat = repeat
         self.resize_height = resize_height
         self.resize_width = resize_width
