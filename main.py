@@ -79,8 +79,8 @@ if __name__=="__main__":
     for i in range(len(bags)):
         label = DELIMITER.join([str(predij[0]) for predij in np.argwhere(pred[i]==True)])
         label_writer.writerow([bags[i],label])
-        prob = DELIMITER.join([f"{probij:.4f}" for probij in prob[i]])
-        prob_writer.writerow([bags[i],prob])
+        probi = DELIMITER.join([f"{probij:.4f}" for probij in prob[i]])
+        prob_writer.writerow([bags[i],probi])
     label_file.close()
     prob_file.close()
 
